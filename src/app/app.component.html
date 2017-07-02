@@ -1,20 +1,94 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{title}}!!
-  </h1>
-  <img width="300" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOS4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAyNTAgMjUwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAyNTAgMjUwOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDojREQwMDMxO30NCgkuc3Qxe2ZpbGw6I0MzMDAyRjt9DQoJLnN0MntmaWxsOiNGRkZGRkY7fQ0KPC9zdHlsZT4NCjxnPg0KCTxwb2x5Z29uIGNsYXNzPSJzdDAiIHBvaW50cz0iMTI1LDMwIDEyNSwzMCAxMjUsMzAgMzEuOSw2My4yIDQ2LjEsMTg2LjMgMTI1LDIzMCAxMjUsMjMwIDEyNSwyMzAgMjAzLjksMTg2LjMgMjE4LjEsNjMuMiAJIi8+DQoJPHBvbHlnb24gY2xhc3M9InN0MSIgcG9pbnRzPSIxMjUsMzAgMTI1LDUyLjIgMTI1LDUyLjEgMTI1LDE1My40IDEyNSwxNTMuNCAxMjUsMjMwIDEyNSwyMzAgMjAzLjksMTg2LjMgMjE4LjEsNjMuMiAxMjUsMzAgCSIvPg0KCTxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik0xMjUsNTIuMUw2Ni44LDE4Mi42aDBoMjEuN2gwbDExLjctMjkuMmg0OS40bDExLjcsMjkuMmgwaDIxLjdoMEwxMjUsNTIuMUwxMjUsNTIuMUwxMjUsNTIuMUwxMjUsNTIuMQ0KCQlMMTI1LDUyLjF6IE0xNDIsMTM1LjRIMTA4bDE3LTQwLjlMMTQyLDEzNS40eiIvPg0KPC9nPg0KPC9zdmc+DQo=">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" href="http://angularjs.blogspot.ca/">Angular blog</a></h2>
-  </li>
-</ul>
+<md-sidenav-container class="example-container">
+  <!-- Sidenav -->
+  <md-sidenav #sidenav mode="over" class="example-sidenav">
+    
+    <!-- Sidenav top image -->
+    <div><img class="header-cover" src="https://2.bp.blogspot.com/-2RewSLZUzRg/U-9o6SD4M6I/AAAAAAAADIE/voax99AbRx0/s1600/14%2B-%2B1%2B%281%29.jpg" alt="Duc Dao"></div>
+		 
+	   <!-- Navigation list -->
+    <md-nav-list class="list-item">
+	   <md-list-item> 
+			 <button md-button class="list-item">
+			   <md-icon style="margin-left:16px">home</md-icon>
+				 <span style="margin-left:54px">Home</span>
+			 </button>
+		   <br>
+			 <button md-button class="list-item">
+			   <md-icon style="margin-left:16px">class</md-icon>
+				 <span style="margin-left:54px">Academics</span>
+			 </button> 
+			 <br>	
+			 <button md-button class="list-item">
+			   <md-icon style="margin-left:16px">contacts</md-icon>
+			   <span style="margin-left:54px">Contact</span>
+			 </button> 
+		  </md-list-item>
+	  </md-nav-list>
+  
+		<!-- Bottom icon in sidenav -->
+    <img style="height:24px; margin-left:16px; position:absolute; bottom: 16px" src="https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg">
+    <img style="height:32px; position:absolute; margin-left: 48px; bottom: 12px" src="https://cdn2.iconfinder.com/data/icons/nodejs-1/512/nodejs-512.png">
+  </md-sidenav>
+  
+  <!-- Top toolbar -->
+  <md-toolbar color="primary">
+    <button md-button (click)="sidenav.open()">
+      <md-icon>menu</md-icon>    
+    </button>
 
+    <span style="font-family:Roboto; font-weight:400">Duc Dao</span>
+  </md-toolbar>
+  
+  <div style="overflow:scroll;">	 
+  <!-- Introduction card -->
+  <md-card class="example-card">
+   <md-card-header>
+     <div md-card-avatar class="avatar-image"></div>
+     <md-card-title>Duc Dao</md-card-title>
+     <md-card-subtitle>Cal Poly</md-card-subtitle>
+   </md-card-header>
+
+   <img md-card-image src="https://c1.staticflickr.com/1/344/18573055643_59c8c7bbeb_k.jpg" alt="Duc Dao">
+   <md-card-content>
+     <p>
+        Greetings, traveller! My name is Duc Dao and I am an undergraduate student attending California Polytechnic State University, San Luis Obispo majoring in Computer Science.
+     </p>
+   </md-card-content>
+
+   <md-card-actions>
+      <a md-raised-button href="http://www.calpoly.edu/" target="_blank" style="color:green">Cal Poly</a>
+
+      <a md-raised-button href="http://hearthstone.gamepedia.com/Hunter" target="_blank">Greetings, traveller!</a>
+   </md-card-actions>
+  </md-card>
+
+  <br>
+
+  <!-- Introduction card -->
+  <md-card class="example-card">
+   <md-card-header>
+     <div md-card-avatar class="avatar-image"></div>
+     <md-card-title>Duc Dao</md-card-title>
+     <md-card-subtitle>Cal Poly</md-card-subtitle>
+   </md-card-header>
+
+   <img md-card-image src="https://c1.staticflickr.com/1/344/18573055643_59c8c7bbeb_k.jpg" alt="Duc Dao">
+   <md-card-content>
+     <p>
+        Greetings, traveller! My name is Duc Dao and I am a undergraduate student attending California Polytechnic State University, San Luis Obispo majoring in Computer Science.
+     </p>
+   </md-card-content>
+
+   <md-card-actions>
+      <a md-raised-button href="http://www.calpoly.edu/" target="_blank" style="color:green">Cal Poly</a>
+
+      <a md-raised-button href="http://hearthstone.gamepedia.com/Hunter" target="_blank">Greetings, traveller!</a>
+   </md-card-actions>
+  </md-card>
+  </div>
+	
+</md-sidenav-container>
+
+<button md-fab class="example-fab" color="primary" (click)="sidenav.toggle()">
+  <md-icon>contacts</md-icon>
+</button>
