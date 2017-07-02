@@ -13,6 +13,7 @@ import { MdButtonModule, MdCardModule, MdMenuModule,
     AppComponent
   ],
   imports: [
+    BrowserModule,
     BrowserAnimationsModule,
     MdButtonModule,
     MdMenuModule,

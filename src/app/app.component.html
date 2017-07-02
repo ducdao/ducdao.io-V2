@@ -1,6 +1,6 @@
 <md-sidenav-container class="example-container">
   <!-- Sidenav -->
-  <md-sidenav #sidenav mode="over" class="example-sidenav">
+  <md-sidenav #sidenav mode="push" class="example-sidenav">
     <!-- Sidenav top image -->
     <div>
       <img class="header-cover" 
@@ -18,6 +18,13 @@
 		    
         <br>
 			  
+        <button md-button class="list-item">
+			    <md-icon style="margin-left:16px">assignment</md-icon>
+				  <span style="margin-left:54px">Resume</span>
+			  </button> 
+
+        <br>
+
         <button md-button class="list-item">
 			    <md-icon style="margin-left:16px">class</md-icon>
 				  <span style="margin-left:54px">Academics</span>
@@ -48,33 +55,36 @@
   <!-- Top toolbar -->
   <md-toolbar color="primary">
     
+    <!-- Sidenav menu button -->
     <button md-button (click)="sidenav.open()">
       <md-icon>menu</md-icon>    
     </button>
 
+    <!-- Top toolbar title -->
     <span style="font-family:Roboto; font-weight:400">
-      Duc Dao
+      Duc Long Dao
     </span>
     
-    <div style="float:right">
+    <!-- Right justify theme selector menu by filling the center space -->
+    <span class="spacer"></span>
+
+    <!-- Theme selector menu -->
     <button md-icon-button [mdMenuTriggerFor]="menu">
-      <md-icon>more_vert</md-icon>
+      <md-icon>brush</md-icon>
     </button>
     <md-menu #menu="mdMenu">
+      
       <button md-menu-item>
         <md-icon>dialpad</md-icon>
-        <span>Redial</span>
+        <span>Dark Pink</span>
       </button>
-      <button md-menu-item disabled>
-        <md-icon>voicemail</md-icon>
-        <span>Check voicemail</span>
-      </button>
+      
       <button md-menu-item>
-        <md-icon>notifications_off</md-icon>
-        <span>Disable alerts</span>
+        <md-icon>voicemail</md-icon>
+        <span>Light Pink</span>
       </button>
+    
     </md-menu>
-    </div>
 
   </md-toolbar>
   
@@ -97,6 +107,7 @@
         student attending California Polytechnic State University, San Luis 
         Obispo majoring in Computer Science.
       </p>
+        
     </md-card-content>
 
     <md-card-actions>
@@ -116,17 +127,18 @@
     <md-card-header>
       <div md-card-avatar class="avatar-image"></div>
       <md-card-title>Duc Dao</md-card-title>
-      <md-card-subtitle>Cal Poly</md-card-subtitle>
+      <md-card-subtitle>Disgruntled Avians</md-card-subtitle>
     </md-card-header>
 
     <img md-card-image style="max-width:fill;"
-      src="https://c1.staticflickr.com/1/344/18573055643_59c8c7bbeb_k.jpg" alt="Duc Dao">
+      src="https://scontent-sjc2-1.xx.fbcdn.net/v/t1.0-9/281674_217938141585821_1152707_n.jpg?oh=bfabca2906c8a3576d2dec1405cee061&oe=59D38AFA" 
+      alt="Disguntled Avians">
 
     <md-card-content>
       <p>
-        Greetings, traveller! My name is Duc Dao and I am an undergraduate 
-        student attending California Polytechnic State University, San Luis 
-        Obispo majoring in Computer Science.
+        I'm also the trumpet player for the instrumental cover band, 
+        Disgruntled Avians! Formed in 2011 by Julian Roque, Disgruntled Avians 
+        aimed to bring his music arrangements to life.
       </p>
     </md-card-content>
 
@@ -143,5 +155,5 @@
 </md-sidenav-container>
 
 <button md-fab class="example-fab" color="primary" (click)="sidenav.toggle()">
-  <md-icon>contacts</md-icon>
+  <md-icon>face</md-icon>
 </button>

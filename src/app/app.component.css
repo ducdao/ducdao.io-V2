@@ -3,6 +3,10 @@
   height: stretch;
 }
 
+.spacer {
+  flex: 1 1 auto;
+}
+
 .example-sidenav-content {
   display: flex !important;
   height: 100%;
@@ -23,7 +27,7 @@
 }
 
 .big-card {
-  width: 30%;
+  width: 35%;
   padding: 24dp;
   margin: auto;
 }
