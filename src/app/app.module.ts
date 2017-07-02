@@ -4,14 +4,16 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MdButtonModule, MdCardModule, MdMenuModule, MdToolbarModule, MdIconModule, MdSidenavModule, MdProgressBarModule } from '@angular/material';
+import { MdButtonModule, MdCardModule, MdMenuModule, 
+   MdToolbarModule, MdIconModule, MdSidenavModule, 
+   MdProgressBarModule } from '@angular/material';
 
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserAnimationsModule,
     MdButtonModule,
     MdMenuModule,
     MdCardModule,

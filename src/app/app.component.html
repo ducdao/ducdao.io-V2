@@ -1,92 +1,145 @@
 <md-sidenav-container class="example-container">
   <!-- Sidenav -->
   <md-sidenav #sidenav mode="over" class="example-sidenav">
-    
     <!-- Sidenav top image -->
-    <div><img class="header-cover" src="https://2.bp.blogspot.com/-2RewSLZUzRg/U-9o6SD4M6I/AAAAAAAADIE/voax99AbRx0/s1600/14%2B-%2B1%2B%281%29.jpg" alt="Duc Dao"></div>
+    <div>
+      <img class="header-cover" 
+        src="https://2.bp.blogspot.com/-2RewSLZUzRg/U-9o6SD4M6I/AAAAAAAADIE/voax99AbRx0/s1600/14%2B-%2B1%2B%281%29.jpg">
+    </div>
 		 
-	   <!-- Navigation list -->
+	  <!-- Sidenav list content -->
     <md-nav-list class="list-item">
-	   <md-list-item> 
-			 <button md-button class="list-item">
-			   <md-icon style="margin-left:16px">home</md-icon>
-				 <span style="margin-left:54px">Home</span>
-			 </button>
-		   <br>
-			 <button md-button class="list-item">
-			   <md-icon style="margin-left:16px">class</md-icon>
-				 <span style="margin-left:54px">Academics</span>
-			 </button> 
-			 <br>	
-			 <button md-button class="list-item">
-			   <md-icon style="margin-left:16px">contacts</md-icon>
-			   <span style="margin-left:54px">Contact</span>
-			 </button> 
-		  </md-list-item>
+	    <md-list-item> 
+			
+        <button md-button class="list-item">
+			    <md-icon style="margin-left:16px">home</md-icon>
+				  <span style="margin-left:54px">Home</span>
+			  </button>
+		    
+        <br>
+			  
+        <button md-button class="list-item">
+			    <md-icon style="margin-left:16px">class</md-icon>
+				  <span style="margin-left:54px">Academics</span>
+			  </button> 
+			  
+        <br>	
+			  
+        <button md-button class="list-item">
+			    <md-icon style="margin-left:16px">contacts</md-icon>
+			    <span style="margin-left:54px">Contact</span>
+			  </button> 
+		  
+      </md-list-item>
 	  </md-nav-list>
   
-		<!-- Bottom icon in sidenav -->
-    <img style="height:24px; margin-left:16px; position:absolute; bottom: 16px" src="https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg">
-    <img style="height:32px; position:absolute; margin-left: 48px; bottom: 12px" src="https://cdn2.iconfinder.com/data/icons/nodejs-1/512/nodejs-512.png">
+		<!-- Bottom icon in sidenav showing stack I used -->
+    <!-- Angular icon -->
+    <div style="position: absolute; margin-left:18px; bottom: 16px; display: inline-block">
+      <img style="height:20px; margin-bottom: 6px" 
+        src="https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg">
+      <!-- NodeJS icon -->
+      <img style="height:32px;" 
+        src="https://cdn2.iconfinder.com/data/icons/nodejs-1/512/nodejs-512.png">
+    </div>
+
   </md-sidenav>
   
   <!-- Top toolbar -->
   <md-toolbar color="primary">
+    
     <button md-button (click)="sidenav.open()">
       <md-icon>menu</md-icon>    
     </button>
 
-    <span style="font-family:Roboto; font-weight:400">Duc Dao</span>
+    <span style="font-family:Roboto; font-weight:400">
+      Duc Dao
+    </span>
+    
+    <div style="float:right">
+    <button md-icon-button [mdMenuTriggerFor]="menu">
+      <md-icon>more_vert</md-icon>
+    </button>
+    <md-menu #menu="mdMenu">
+      <button md-menu-item>
+        <md-icon>dialpad</md-icon>
+        <span>Redial</span>
+      </button>
+      <button md-menu-item disabled>
+        <md-icon>voicemail</md-icon>
+        <span>Check voicemail</span>
+      </button>
+      <button md-menu-item>
+        <md-icon>notifications_off</md-icon>
+        <span>Disable alerts</span>
+      </button>
+    </md-menu>
+    </div>
+
   </md-toolbar>
   
   <div style="overflow:scroll;">	 
   <!-- Introduction card -->
-  <md-card class="example-card">
-   <md-card-header>
-     <div md-card-avatar class="avatar-image"></div>
-     <md-card-title>Duc Dao</md-card-title>
-     <md-card-subtitle>Cal Poly</md-card-subtitle>
-   </md-card-header>
+  <md-card class="big-card">
+    
+    <md-card-header>
+      <div md-card-avatar class="avatar-image"></div>
+      <md-card-title>Duc Dao</md-card-title>
+      <md-card-subtitle>Cal Poly</md-card-subtitle>
+    </md-card-header>
 
-   <img md-card-image src="https://c1.staticflickr.com/1/344/18573055643_59c8c7bbeb_k.jpg" alt="Duc Dao">
-   <md-card-content>
-     <p>
-        Greetings, traveller! My name is Duc Dao and I am an undergraduate student attending California Polytechnic State University, San Luis Obispo majoring in Computer Science.
-     </p>
-   </md-card-content>
+    <img md-card-image style="max-width:fill;" 
+      src="https://c1.staticflickr.com/1/344/18573055643_59c8c7bbeb_k.jpg" alt="Duc Dao">
 
-   <md-card-actions>
-      <a md-raised-button href="http://www.calpoly.edu/" target="_blank" style="color:green">Cal Poly</a>
+    <md-card-content>
+      <p>
+        Greetings, traveller! My name is Duc Dao and I am an undergraduate 
+        student attending California Polytechnic State University, San Luis 
+        Obispo majoring in Computer Science.
+      </p>
+    </md-card-content>
 
-      <a md-raised-button href="http://hearthstone.gamepedia.com/Hunter" target="_blank">Greetings, traveller!</a>
-   </md-card-actions>
+    <md-card-actions>
+      <a md-raised-button href="http://www.calpoly.edu/" 
+        target="_blank" style="color:green">Cal Poly</a>
+      <a md-raised-button href="http://hearthstone.gamepedia.com/Hunter" 
+        target="_blank">Greetings, traveller!</a>
+    </md-card-actions>
+
   </md-card>
 
   <br>
 
   <!-- Introduction card -->
-  <md-card class="example-card">
-   <md-card-header>
-     <div md-card-avatar class="avatar-image"></div>
-     <md-card-title>Duc Dao</md-card-title>
-     <md-card-subtitle>Cal Poly</md-card-subtitle>
-   </md-card-header>
+  <md-card class="big-card">
+    
+    <md-card-header>
+      <div md-card-avatar class="avatar-image"></div>
+      <md-card-title>Duc Dao</md-card-title>
+      <md-card-subtitle>Cal Poly</md-card-subtitle>
+    </md-card-header>
 
-   <img md-card-image src="https://c1.staticflickr.com/1/344/18573055643_59c8c7bbeb_k.jpg" alt="Duc Dao">
-   <md-card-content>
-     <p>
-        Greetings, traveller! My name is Duc Dao and I am a undergraduate student attending California Polytechnic State University, San Luis Obispo majoring in Computer Science.
-     </p>
-   </md-card-content>
+    <img md-card-image style="max-width:fill;"
+      src="https://c1.staticflickr.com/1/344/18573055643_59c8c7bbeb_k.jpg" alt="Duc Dao">
 
-   <md-card-actions>
-      <a md-raised-button href="http://www.calpoly.edu/" target="_blank" style="color:green">Cal Poly</a>
+    <md-card-content>
+      <p>
+        Greetings, traveller! My name is Duc Dao and I am an undergraduate 
+        student attending California Polytechnic State University, San Luis 
+        Obispo majoring in Computer Science.
+      </p>
+    </md-card-content>
 
-      <a md-raised-button href="http://hearthstone.gamepedia.com/Hunter" target="_blank">Greetings, traveller!</a>
-   </md-card-actions>
+    <md-card-actions>
+      <a md-raised-button href="http://www.calpoly.edu/" 
+        target="_blank" style="color:green">Cal Poly</a>
+      <a md-raised-button href="http://hearthstone.gamepedia.com/Hunter" 
+        target="_blank">Greetings, traveller!</a>
+    </md-card-actions>
+    
   </md-card>
   </div>
-	
+
 </md-sidenav-container>
 
 <button md-fab class="example-fab" color="primary" (click)="sidenav.toggle()">

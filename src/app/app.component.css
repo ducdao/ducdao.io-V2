@@ -1,6 +1,6 @@
 .example-container {
-  width: fill;
-  height: fill;
+  width: stretch;
+  height: stretch;
 }
 
 .example-sidenav-content {
@@ -22,8 +22,8 @@
 	text-align: left;
 }
 
-.example-card {
-  width: 50%;
+.big-card {
+  width: 30%;
   padding: 24dp;
   margin: auto;
 }
