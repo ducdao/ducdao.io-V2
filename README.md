@@ -1,6 +1,5 @@
-# MyApp
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.0.
+# ducdao.io
+Duc Dao's personal website written in Angular 4. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.0.
 
 ## Development server
 
