@@ -1,6 +1,8 @@
 .example-container {
   width: stretch;
   height: stretch;
+  display: flex;
+  overflow: visible;
 }
 
 .spacer {
@@ -27,7 +29,7 @@
 }
 
 .big-card {
-  width: 35%;
+  width: 30%;
   padding: 24dp;
   margin: auto;
 }
