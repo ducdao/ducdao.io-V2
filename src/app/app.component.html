@@ -1,159 +1,84 @@
-<md-sidenav-container class="example-container">
-  <!-- Sidenav -->
-  <md-sidenav #sidenav mode="push" class="example-sidenav">
-    <!-- Sidenav top image -->
-    <div>
-      <img class="header-cover" 
-        src="https://2.bp.blogspot.com/-2RewSLZUzRg/U-9o6SD4M6I/AAAAAAAADIE/voax99AbRx0/s1600/14%2B-%2B1%2B%281%29.jpg">
-    </div>
-		 
-	  <!-- Sidenav list content -->
-    <md-nav-list class="list-item">
-	    <md-list-item> 
-			
-        <button md-button class="list-item">
-			    <md-icon style="margin-left:16px">home</md-icon>
-				  <span style="margin-left:54px">Home</span>
-			  </button>
-		    
-        <br>
-			  
-        <button md-button class="list-item">
-			    <md-icon style="margin-left:16px">assignment</md-icon>
-				  <span style="margin-left:54px">Resume</span>
-			  </button> 
+<div class="left">
+  <img src="http://i.imgur.com/0SPI9MP.jpg" alt="Duc Dao" class="bg"/>
+</div>
 
-        <br>
+<md-toolbar color="primary" id="header">
+  <i class="large material-icons">tag_faces</i>
+</md-toolbar>
 
-        <button md-button class="list-item">
-			    <md-icon style="margin-left:16px">school</md-icon>
-				  <span style="margin-left:54px">Academics</span>
-			  </button> 
-			  
-        <br>	
-			  
-        <button md-button class="list-item">
-			    <md-icon style="margin-left:16px">contacts</md-icon>
-			    <span style="margin-left:54px">Contact</span>
-			  </button> 
-		  
-      </md-list-item>
-	  </md-nav-list>
-  
-		<!-- Bottom icon in sidenav showing stack I used -->
-    <!-- Angular icon -->
-    <div style="position: absolute; margin-left:18px; bottom: 16px; display: inline-block">
-      <img style="height:20px; margin-bottom: 6px" 
-        src="https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg">
-      <!-- NodeJS icon -->
-      <img style="height:32px;" 
-        src="https://cdn2.iconfinder.com/data/icons/nodejs-1/512/nodejs-512.png">
-    </div>
-
-  </md-sidenav>
-  
-  <!-- Top toolbar -->
-  <md-toolbar color="primary">
-    
-    <!-- Sidenav menu button -->
-    <button md-button (click)="sidenav.open()">
-      <md-icon>menu</md-icon>    
-    </button>
-
-    <!-- Top toolbar title -->
-    <span style="font-family:Roboto; font-weight:400">
-      Duc Long Dao
-    </span>
-    
-    <!-- Right justify theme selector menu by filling the center space -->
-    <span class="spacer"></span>
-
-    <!-- Theme selector menu -->
-    <button md-icon-button [mdMenuTriggerFor]="menu">
-      <md-icon>brush</md-icon>
-    </button>
-    <md-menu #menu="mdMenu">
+<div class="right">
+  <span class="spacer"></span>
+  <md-tab-group style="margin: 1.5%">
+    <md-tab label="HOME">  
+    <!-- Introduction card -->
+    <md-card class="big-card" style="margin-top: 3%">
       
-      <button md-menu-item>
-        <md-icon>dialpad</md-icon>
-        <span>Dark Pink</span>
-      </button>
-      
-      <button md-menu-item>
-        <md-icon>voicemail</md-icon>
-        <span>Light Pink</span>
-      </button>
-    
-    </md-menu>
+      <md-card-header>
+        <div md-card-avatar class="avatar-image"></div>
+        <md-card-title>Duc Dao</md-card-title>
+        <md-card-subtitle>Cal Poly</md-card-subtitle>
+      </md-card-header>
 
-  </md-toolbar>
-  
-  <div style="overflow:scroll;">	 
-  <!-- Introduction card -->
-  <md-card class="big-card">
-    
-    <md-card-header>
-      <div md-card-avatar class="avatar-image"></div>
-      <md-card-title>Duc Dao</md-card-title>
-      <md-card-subtitle>Cal Poly</md-card-subtitle>
-    </md-card-header>
+      <!--https://c1.staticflickr.com/1/344/18573055643_59c8c7bbeb_k.jpg-->
 
-    <img md-card-image style="max-width:fill;" 
-      src="https://c1.staticflickr.com/1/344/18573055643_59c8c7bbeb_k.jpg" alt="Duc Dao">
+      <img md-card-image style="max-width:fill;" 
+        src="http://i.imgur.com/8OmORcP.jpg" alt="Duc Dao">
 
-    <md-card-content>
-      <p>
-        Greetings, traveller! My name is Duc Dao and I am an undergraduate 
-        student attending California Polytechnic State University, San Luis 
-        Obispo majoring in Computer Science.
-      </p>
+      <md-card-content>
+        <p>
+          Greetings, traveller! My name is Duc Dao and I am an undergraduate 
+          student attending California Polytechnic State University, San Luis 
+          Obispo majoring in Computer Science.
+        </p>     
+          
+      </md-card-content>
+
+      <md-card-actions>
+        <a md-button href="http://www.calpoly.edu/" 
+          target="_blank" style="color:green">CAL POLY</a>
+        <a md-button href="http://hearthstone.gamepedia.com/Hunter" 
+          target="_blank">GREETINGS, TRAVELLERS!</a>
+      </md-card-actions>
+
+    </md-card></md-tab>
+
+    <md-tab label="PERSONAL">  
+      <!-- Introduction card -->
+      <md-card class="big-card">
         
-    </md-card-content>
+        <md-card-header>
+          <div md-card-avatar class="avatar-image"></div>
+          <md-card-title>Disgruntled Avians</md-card-title>
+          <md-card-subtitle>Instrumental Cover Band</md-card-subtitle>
+        </md-card-header>
 
-    <md-card-actions>
-      <a md-button href="http://www.calpoly.edu/" 
-        target="_blank" style="color:green">CAL POLY</a>
-      <a md-button href="http://hearthstone.gamepedia.com/Hunter" 
-        target="_blank">GREETINGS, TRAVELLERS!</a>
-    </md-card-actions>
+        <img md-card-image style="max-width:fill;"
+          src="https://scontent-sjc2-1.xx.fbcdn.net/v/t1.0-9/281674_217938141585821_1152707_n.jpg?oh=bfabca2906c8a3576d2dec1405cee061&oe=59D38AFA" 
+          alt="Disguntled Avians">
 
-  </md-card>
+        <md-card-content>
+          <p>
+            I'm also the trumpet player for the instrumental cover band, 
+            Disgruntled Avians! Formed in 2011 by Julian Roque, Disgruntled Avians 
+            aimed to bring his music arrangements to life.
+          </p>
+        </md-card-content>
 
-  <br>
+        <md-card-actions>
+          <a md-raised-button href="http://www.calpoly.edu/" 
+            target="_blank" style="color:green">Cal Poly</a>
+          <a md-raised-button href="http://hearthstone.gamepedia.com/Hunter" 
+            target="_blank">Greetings, traveller!</a>
+        </md-card-actions>
+        
+      </md-card></md-tab>
+        
+    <md-tab label="PROJECTS">Projects</md-tab>
+    <md-tab label="CONTACT">Contact Information</md-tab>
+  </md-tab-group>
 
-  <!-- Introduction card -->
-  <md-card class="big-card">
-    
-    <md-card-header>
-      <div md-card-avatar class="avatar-image"></div>
-      <md-card-title>Disgruntled Avians</md-card-title>
-      <md-card-subtitle>Instrumental Cover Band</md-card-subtitle>
-    </md-card-header>
-
-    <img md-card-image style="max-width:fill;"
-      src="https://scontent-sjc2-1.xx.fbcdn.net/v/t1.0-9/281674_217938141585821_1152707_n.jpg?oh=bfabca2906c8a3576d2dec1405cee061&oe=59D38AFA" 
-      alt="Disguntled Avians">
-
-    <md-card-content>
-      <p>
-        I'm also the trumpet player for the instrumental cover band, 
-        Disgruntled Avians! Formed in 2011 by Julian Roque, Disgruntled Avians 
-        aimed to bring his music arrangements to life.
-      </p>
-    </md-card-content>
-
-    <md-card-actions>
-      <a md-raised-button href="http://www.calpoly.edu/" 
-        target="_blank" style="color:green">Cal Poly</a>
-      <a md-raised-button href="http://hearthstone.gamepedia.com/Hunter" 
-        target="_blank">Greetings, traveller!</a>
-    </md-card-actions>
-    
-  </md-card>
-  </div>
-
-</md-sidenav-container>
-
-<button md-fab class="example-fab" color="primary" (click)="sidenav.toggle()">
-  <md-icon>face</md-icon>
-</button>
+  <!-- Fab button -->
+  <button md-fab class="example-fab" color="primary" (click)="sidenav.toggle()">
+    <md-icon>face</md-icon>
+  </button>
+</div>

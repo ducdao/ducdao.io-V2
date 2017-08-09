@@ -4,9 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MdButtonModule, MdCardModule, MdMenuModule, 
-   MdToolbarModule, MdIconModule, MdSidenavModule, 
-   MdProgressBarModule } from '@angular/material';
+import { MdButtonModule, 
+         MdCardModule, 
+         MdMenuModule, 
+         MdToolbarModule, 
+         MdIconModule, 
+         MdSidenavModule, 
+         MdProgressBarModule, 
+         MdTabsModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -21,7 +26,9 @@ import { MdButtonModule, MdCardModule, MdMenuModule,
     MdToolbarModule,
     MdIconModule,
 	  MdSidenavModule,
-	  MdProgressBarModule
+    MdProgressBarModule,
+    MdTabsModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

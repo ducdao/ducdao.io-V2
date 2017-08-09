@@ -1,8 +1,25 @@
+body, html {
+    height: 100%;
+}
+
+.bg { 
+    /* The image used */
+    background-image: url("ducdao.png");
+
+    /* Full height */
+    height: 50%; 
+
+    float: left;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .example-container {
   width: stretch;
   height: stretch;
   display: flex;
-  overflow: visible;
 }
 
 .spacer {
@@ -16,10 +33,6 @@
   justify-content: left;
 }
 
-.example-sidenav {
-  padding: 0px;
-}
-
 .list-item {
 	font-family: Roboto;
 	font-size: 28sp;
@@ -29,7 +42,8 @@
 }
 
 .big-card {
-  width: 30%;
+  margin-top: 20%;
+  width: 65%;
   padding: 24dp;
   margin: auto;
 }
@@ -40,20 +54,38 @@
 }
 
 .example-fab {
-  position: absolute;
-  right: 32px;
-  bottom: 32px;
+  position: fixed;
+  right: 2%;
+  bottom: 2%;
 	width: 56dp;
 	height: 56dp;
 }
 
 .header-cover {
-	 background-repeat: no-repeat;
-	 background-position: center;
-	 background-size: cover;
-	 width: 320px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 320px;
  }
 
-.scrolling-content {
-  overflow: scroll;
+#header{
+  background-color: rgba(0,0,0,.10);
+  position:fixed;
+  width:100%;
+}
+
+.left {
+  float:left; 
+  height: auto;
+  width: 55%;    
+}
+
+.right {
+  float: right;
+  height: auto;
+  width: 45%;
+}
+
+.md-tab-group {
+  justify-content: flex-end;
 }
