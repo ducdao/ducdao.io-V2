@@ -1,84 +1,91 @@
-<div class="left">
-  <img src="http://i.imgur.com/0SPI9MP.jpg" alt="Duc Dao" class="bg"/>
-</div>
-
 <md-toolbar color="primary" id="header">
   <i class="large material-icons">tag_faces</i>
 </md-toolbar>
 
-<div class="right">
-  <span class="spacer"></span>
-  <md-tab-group style="margin: 1.5%">
-    <md-tab label="HOME">  
+<md-tab-group>
+  <md-tab label="HOME">
+  <div class="column-left">
+    <md-grid-list cols="4" rowHeight="300px" style="margin: auto">
+      <md-grid-tile
+          *ngFor="let tile of tiles"
+          [colspan]="tile.cols"
+          [rowspan]="tile.rows"
+          [style.background]="tile.color">
+        {{tile.text}}
+      </md-grid-tile>
+    </md-grid-list>
+  </div>
+    
+  <!-- Introduction card -->
+  <div class="column-right">
+  <md-card class="landing-card" style="margin-top: 3%">
+    <md-card-header>
+      <div md-card-avatar class="avatar-image"></div>
+      <md-card-title>Duc Dao</md-card-title>
+      <md-card-subtitle>Cal Poly</md-card-subtitle>
+    </md-card-header>
+
+    <!--https://c1.staticflickr.com/1/344/18573055643_59c8c7bbeb_k.jpg-->
+
+    <img md-card-image style="max-width:fill;" 
+      src="http://i.imgur.com/0SPI9MP.jpg" alt="Duc Dao">
+
+    <md-card-content>
+      <p>
+        Greetings, traveller! My name is Duc Dao and I am an undergraduate 
+        student attending California Polytechnic State University, San Luis 
+        Obispo majoring in Computer Science.
+      </p>     
+        
+    </md-card-content>
+
+    <md-card-actions>
+      <a md-button href="http://www.calpoly.edu/" 
+        target="_blank" style="color:green">CAL POLY</a>
+      <a md-button href="http://hearthstone.gamepedia.com/Hunter" 
+        target="_blank">GREETINGS, TRAVELLERS!</a>
+    </md-card-actions>
+
+  </md-card>
+  </div>
+  
+  </md-tab>
+
+  <md-tab label="PERSONAL">  
     <!-- Introduction card -->
-    <md-card class="big-card" style="margin-top: 3%">
-      
+    <md-card class="big-card">
       <md-card-header>
         <div md-card-avatar class="avatar-image"></div>
-        <md-card-title>Duc Dao</md-card-title>
-        <md-card-subtitle>Cal Poly</md-card-subtitle>
+        <md-card-title>Disgruntled Avians</md-card-title>
+        <md-card-subtitle>Instrumental Cover Band</md-card-subtitle>
       </md-card-header>
 
-      <!--https://c1.staticflickr.com/1/344/18573055643_59c8c7bbeb_k.jpg-->
-
-      <img md-card-image style="max-width:fill;" 
-        src="http://i.imgur.com/8OmORcP.jpg" alt="Duc Dao">
+      <img md-card-image style="max-width:fill;"
+        src="https://scontent-sjc2-1.xx.fbcdn.net/v/t1.0-9/281674_217938141585821_1152707_n.jpg?oh=bfabca2906c8a3576d2dec1405cee061&oe=59D38AFA" 
+        alt="Disguntled Avians">
 
       <md-card-content>
         <p>
-          Greetings, traveller! My name is Duc Dao and I am an undergraduate 
-          student attending California Polytechnic State University, San Luis 
-          Obispo majoring in Computer Science.
-        </p>     
-          
+          I'm also the trumpet player for the instrumental cover band, 
+          Disgruntled Avians! Formed in 2011 by Julian Roque, Disgruntled Avians 
+          aimed to bring his music arrangements to life.
+        </p>
       </md-card-content>
 
       <md-card-actions>
-        <a md-button href="http://www.calpoly.edu/" 
-          target="_blank" style="color:green">CAL POLY</a>
-        <a md-button href="http://hearthstone.gamepedia.com/Hunter" 
-          target="_blank">GREETINGS, TRAVELLERS!</a>
+        <a md-raised-button href="http://www.calpoly.edu/" 
+          target="_blank" style="color:green">Cal Poly</a>
+        <a md-raised-button href="http://hearthstone.gamepedia.com/Hunter" 
+          target="_blank">Greetings, traveller!</a>
       </md-card-actions>
-
+      
     </md-card></md-tab>
+      
+  <md-tab label="PROJECTS">Projects</md-tab>
+  <md-tab label="CONTACT">Contact Information</md-tab>
+</md-tab-group>
 
-    <md-tab label="PERSONAL">  
-      <!-- Introduction card -->
-      <md-card class="big-card">
-        
-        <md-card-header>
-          <div md-card-avatar class="avatar-image"></div>
-          <md-card-title>Disgruntled Avians</md-card-title>
-          <md-card-subtitle>Instrumental Cover Band</md-card-subtitle>
-        </md-card-header>
-
-        <img md-card-image style="max-width:fill;"
-          src="https://scontent-sjc2-1.xx.fbcdn.net/v/t1.0-9/281674_217938141585821_1152707_n.jpg?oh=bfabca2906c8a3576d2dec1405cee061&oe=59D38AFA" 
-          alt="Disguntled Avians">
-
-        <md-card-content>
-          <p>
-            I'm also the trumpet player for the instrumental cover band, 
-            Disgruntled Avians! Formed in 2011 by Julian Roque, Disgruntled Avians 
-            aimed to bring his music arrangements to life.
-          </p>
-        </md-card-content>
-
-        <md-card-actions>
-          <a md-raised-button href="http://www.calpoly.edu/" 
-            target="_blank" style="color:green">Cal Poly</a>
-          <a md-raised-button href="http://hearthstone.gamepedia.com/Hunter" 
-            target="_blank">Greetings, traveller!</a>
-        </md-card-actions>
-        
-      </md-card></md-tab>
-        
-    <md-tab label="PROJECTS">Projects</md-tab>
-    <md-tab label="CONTACT">Contact Information</md-tab>
-  </md-tab-group>
-
-  <!-- Fab button -->
-  <button md-fab class="example-fab" color="primary" (click)="sidenav.toggle()">
-    <md-icon>face</md-icon>
-  </button>
-</div>
+<!-- Fab button -->
+<button md-fab class="example-fab" color="primary" (click)="sidenav.toggle()">
+  <md-icon>face</md-icon>
+</button>

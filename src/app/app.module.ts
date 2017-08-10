@@ -11,7 +11,8 @@ import { MdButtonModule,
          MdIconModule, 
          MdSidenavModule, 
          MdProgressBarModule, 
-         MdTabsModule } from '@angular/material';
+         MdTabsModule,
+         MdGridListModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -27,8 +28,8 @@ import { MdButtonModule,
     MdIconModule,
 	  MdSidenavModule,
     MdProgressBarModule,
-    MdTabsModule
-    
+    MdTabsModule,
+    MdGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
