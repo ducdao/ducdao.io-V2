@@ -1,0 +1,44 @@
+<div class="column-left">
+  <md-grid-list cols="4" rowHeight="300px" style="margin: auto">
+    <md-grid-tile
+        *ngFor="let tile of tiles"
+        [colspan]="tile.cols"
+        [rowspan]="tile.rows"
+        [style.background]="tile.color">
+      {{tile.text}}
+    </md-grid-tile>
+  </md-grid-list>
+</div>
+    
+<!-- Introduction card -->
+<div class="column-right">
+<md-card class="landing-card" style="margin-top: 120px">
+  <md-card-header>
+    <div md-card-avatar class="avatar-image"></div>
+    <md-card-title>Duc Dao</md-card-title>
+    <md-card-subtitle>Cal Poly</md-card-subtitle>
+  </md-card-header>
+
+  <!--https://c1.staticflickr.com/1/344/18573055643_59c8c7bbeb_k.jpg-->
+
+  <img md-card-image style="max-width:fill;" 
+    src="http://i.imgur.com/0SPI9MP.jpg" alt="Duc Dao">
+
+  <md-card-content>
+    <p>
+      Greetings, traveller! My name is Duc Dao and I am an undergraduate 
+      student attending California Polytechnic State University, San Luis 
+      Obispo majoring in Computer Science.
+    </p>     
+      
+  </md-card-content>
+
+  <md-card-actions>
+    <a md-button href="http://www.calpoly.edu/" 
+      target="_blank" style="color:green">CAL POLY</a>
+    <a md-button href="http://hearthstone.gamepedia.com/Hunter" 
+      target="_blank">GREETINGS, TRAVELLERS!</a>
+  </md-card-actions>
+
+</md-card>
+</div>
