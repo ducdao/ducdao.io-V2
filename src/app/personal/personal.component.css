@@ -1,0 +1,19 @@
+body {
+  position: fixed;
+  height: 95%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto; 
+}
+
+.avatar-image {
+  background-image: url("ducdao.png");
+  background-size: cover;
+}
+
+.big-card {
+  margin-top: 20%;
+  width: 25%;
+  padding: 24dp;
+  margin: auto;
+}

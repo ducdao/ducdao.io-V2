@@ -1,15 +1,9 @@
-.bg { 
-    /* The image used */
-    background-image: url("ducdao.png");
-
-    /* Full height */
-    height: 50%; 
-
-    float: left;
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+body {
+  position: fixed;
+  height: 95%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto; 
 }
 
 .example-container {

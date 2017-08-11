@@ -1,7 +1,17 @@
+body {
+   height: 100%;
+   overflow-x: hidden;
+   overflow-y: auto;
+}
+
 .nav-bar {
    position: fixed;
    top: 0%;
    width: 100%;
+
+   /* Keep navbar above everything */
+   z-index: 100;
+   overflow: hidden;
 }
 
 .fab {

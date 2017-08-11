@@ -1,16 +1,21 @@
-<nav md-tab-nav-bar class="nav-bar">
-  <a md-tab-link
-     *ngFor="let tab of navLinks"
-     [routerLink]="tab.link"
-     routerLinkActive #rla="routerLinkActive"
-     [active]="rla.isActive">
-    {{tab.label}}
-  </a>
-</nav>
+<body>
+   <!-- Tab navbar -->
+   <span style="float: right; width: 35%">
+      <nav md-tab-nav-bar class="nav-bar">
+         <a md-tab-link
+         *ngFor="let tab of navLinks"
+         [routerLink]="tab.link"
+         routerLinkActive #rla="routerLinkActive"
+         [active]="rla.isActive">
+         {{tab.pageName}}
+      </a>
+      </nav>
+   </span>
 
-<router-outlet></router-outlet>
+   <router-outlet></router-outlet>
 
-<!-- Fab button -->
-<button md-fab class="fab" color="primary" (click)="sidenav.toggle()">
-  <md-icon>face</md-icon>
-</button>
+   <!-- Fab button -->
+   <button md-fab class="fab" color="primary" (click)="sidenav.toggle()">
+   <md-icon>face</md-icon>
+   </button>
+</body>

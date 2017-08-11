@@ -8,10 +8,10 @@ import { Component } from '@angular/core';
 
 export class AppComponent {
     navLinks: any[] = [ 
-      {label: 'HOME',     link: '/'},
-      {label: 'PROJECTS', link: '/projects'},
-      {label: 'PERSONAL', link: '/personal'},
-      {label: 'CONTACT',  link: '/contact'}
+      {pageName: 'HOME',     link: '/'},
+      {pageName: 'PROJECTS', link: '/projects'},
+      {pageName: 'PERSONAL', link: '/personal'},
+      {pageName: 'CONTACT',  link: '/contact'}
     ];
 
     tiles = [

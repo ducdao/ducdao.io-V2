@@ -1,9 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
-
 @import '~@angular/material/prebuilt-themes/pink-bluegrey.css';
 
-body {
-	background: #212121;
-	overflow-y: scroll;
+html {
+	height: 100%;
+	width: 100%;
+	/*background-color: rgba(33, 33, 33, 1);*/
+	background-image: url("Elegance.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	overflow-x: hidden;
+	overflow-y: hidden;
+
+	z-index: 1;
 }
