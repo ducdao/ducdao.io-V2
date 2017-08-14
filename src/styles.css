@@ -2,9 +2,10 @@
 @import '~@angular/material/prebuilt-themes/pink-bluegrey.css';
 
 html {
-	height: 100%;
+	position: fixed;
+	top: 48px;
+	height: stretch;
 	width: 100%;
-	/*background-color: rgba(33, 33, 33, 1);*/
 	background-image: url("Elegance.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
@@ -13,4 +14,16 @@ html {
 	overflow-y: hidden;
 
 	z-index: 1;
+}
+
+.github-color {
+	background-color: #913399;
+}
+
+.linkedin-color {
+	background-color: #0077B5;
+}
+
+.gmail-color {
+	background-color: #FF4343;
 }
