@@ -21,8 +21,3 @@ body {
   width: 56dp;
   height: 56dp;
 }
-
-a:hover {
-  overflow: hidden;
-  opacity: 0;
-}

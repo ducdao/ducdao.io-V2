@@ -1,16 +1,8 @@
 <body>
   <div class="column-left">
-    <md-grid-list cols="4" rowHeight="300px" style="margin: auto">
-      <md-grid-tile
-          *ngFor="let tile of tiles"
-          [colspan]="tile.cols"
-          [rowspan]="tile.rows"
-          [style.background]="tile.color">
-        {{tile.text}}
-      </md-grid-tile>
-    </md-grid-list>
+    <p class="splash-text">Hello!</p>
   </div>
-      
+
   <!-- Introduction card -->
   <div class="column-right">
   <md-card class="landing-card">
@@ -22,7 +14,7 @@
 
     <!--https://c1.staticflickr.com/1/344/18573055643_59c8c7bbeb_k.jpg-->
 
-    <img md-card-image style="max-width:fill;" 
+    <img md-card-image style="max-width: fill;" 
       src="http://i.imgur.com/0SPI9MP.jpg" alt="Duc Dao"
       mdTooltip="Dunken Dounts, Cleveland Hopkins International Airport 2014" 
       mdTooltipPosition="left" mdTooltipShowDelay="1000">

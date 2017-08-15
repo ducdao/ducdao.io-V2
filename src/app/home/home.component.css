@@ -3,10 +3,13 @@ body {
   overflow-y: auto; 
 }
 
-.example-container {
-  width: stretch;
-  height: stretch;
-  display: flex;
+.splash-text {
+  font-weight: 100;
+  font-size: 1400%;
+  color: white;
+  text-align: center;
+  margin-left: 20%;
+  margin-top: 25%;
 }
 
 .spacer {
@@ -46,8 +49,8 @@ body {
   width:100%;
 }
 
-.column-left{ float: left; width: 50%; }
-.column-right{ float: right; width: 50%; }
+.column-left{ float: left; width: 50%; height: 100%; }
+.column-right{ float: right; width: 50%; height: 100%; }
 
 md-tab-group {
   width: 100%;

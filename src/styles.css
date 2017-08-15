@@ -16,6 +16,14 @@ html {
 	z-index: 1;
 }
 
+.hearthing-text {
+	font-weight: 100;
+	font-size: 1000%;
+	color: white;
+	text-align: center;
+	margin-top: 10%;
+ }
+
 .github-color {
 	background-color: #913399;
 }
@@ -28,8 +36,7 @@ html {
 	background-color: #FF4343;
 }
 
-
-/* Retain color when hovering over them */
+/* Retain color when hovering over FABs */
 .github-color:hover {
 	background-color: #913399;
 }
