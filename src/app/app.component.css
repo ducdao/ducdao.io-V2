@@ -4,7 +4,8 @@ body {
 }
 
 .nav-bar {
-  background-color: rgba(33,33,33,.10);
+  text-align: right;
+  background-color: rgba(33,33,33,.50);
   position: fixed;
   top: 0%;
 
@@ -13,20 +14,15 @@ body {
   overflow: hidden;
 }
 
-nav {
-  height: 48px;
-}
-
-md-pagination-wrapper.md-center-tabs {
-  margin: 0;
-  margin-left: auto;
-  justify-content: flex-end;
-}
-
 .fab {
   position: fixed;
   right: 2%;
   bottom: 3%;
   width: 56dp;
   height: 56dp;
+}
+
+a:hover {
+  overflow: hidden;
+  opacity: 0;
 }

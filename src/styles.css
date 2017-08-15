@@ -27,3 +27,17 @@ html {
 .gmail-color {
 	background-color: #FF4343;
 }
+
+
+/* Retain color when hovering over them */
+.github-color:hover {
+	background-color: #913399;
+}
+
+.linkedin-color:hover {
+	background-color: #0077B5;
+}
+
+.gmail-color:hover {
+	background-color: #FF4343;
+}
