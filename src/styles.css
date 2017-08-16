@@ -2,7 +2,7 @@
 @import '~@angular/material/prebuilt-themes/pink-bluegrey.css';
 
 html {
-	height: stretch;
+	height: 100%;
 	width: 100%;
 	background-image: url("Elegance.jpg");
 	background-position: center;
@@ -16,11 +16,12 @@ html {
 body {
 	overflow-x: hidden;
 	overflow-y: auto;
+	height: stretch;
 }
 
 .hearthing-text {
+	font-size: 8vw;
 	font-weight: 100;
-	font-size: 1000%;
 	color: white;
 	text-align: center;
 	margin-top: 10%;
@@ -38,6 +39,10 @@ body {
 	background-color: #FF4343;
 }
 
+.resume-color {
+	background-color: #FF5722;
+}
+
 /* Retain color when hovering over FABs */
 .github-color:hover {
 	background-color: #913399;
@@ -49,4 +54,8 @@ body {
 
 .gmail-color:hover {
 	background-color: #FF4343;
+}
+
+.resume-color:hover {
+	background-color: #FF5722;
 }
