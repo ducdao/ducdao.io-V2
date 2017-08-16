@@ -16,8 +16,8 @@ body {
 
 .fab {
   position: fixed;
-  right: 2%;
-  bottom: 3%;
+  right: 30px;
+  bottom: 30px;
   width: 56dp;
   height: 56dp;
 }

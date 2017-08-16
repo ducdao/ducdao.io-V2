@@ -2,18 +2,20 @@
 @import '~@angular/material/prebuilt-themes/pink-bluegrey.css';
 
 html {
-	position: fixed;
-	top: 48px;
 	height: stretch;
 	width: 100%;
 	background-image: url("Elegance.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	overflow-x: hidden;
-	overflow-y: hidden;
+	position: fixed;
 
 	z-index: 1;
+}
+
+body {
+	overflow-x: hidden;
+	overflow-y: auto;
 }
 
 .hearthing-text {

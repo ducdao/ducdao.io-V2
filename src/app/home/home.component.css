@@ -4,12 +4,13 @@ body {
 }
 
 .splash-text {
+  font-size: inherit;
   font-weight: 100;
-  font-size: 1400%;
   color: white;
   text-align: center;
-  margin-left: 20%;
-  margin-top: 25%;
+  padding: 15%;
+  padding-top: 0%;
+  padding-right: 0%; 
 }
 
 .spacer {
@@ -49,8 +50,18 @@ body {
   width:100%;
 }
 
-.column-left{ float: left; width: 50%; height: 100%; }
-.column-right{ float: right; width: 50%; height: 100%; }
+.column-left { 
+  float: left; 
+  width: 50%; 
+  height: 100%;
+  font-size: 12vw;
+}
+
+.column-right { 
+  float: right; 
+  width: 50%; 
+  height: 100%; 
+}
 
 md-tab-group {
   width: 100%;
