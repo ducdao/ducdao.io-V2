@@ -5,9 +5,24 @@ body {
   overflow-x: hidden;
   overflow-y: auto; 
 }
-.column-left { float: left; width: 30.3%; height: 100%; }
-.column-middle {display: inline-block; width: 30.3%; height: 100%; }
-.column-right { float: right; width: 30.3%; height: 100%; }
+.column-left { 
+  float: left; 
+  width: 30.3%; 
+  height: 100%; 
+}
+
+.column-middle {
+  display: inline-block; 
+  width: 30.3%; 
+  height: 100%;
+  margin-left: 75px; 
+}
+
+.column-right { 
+  float: right; 
+  width: 30.3%; 
+  height: 100%; 
+}
 
 .avatar-image {
   background-image: url("ducdao.png");
@@ -20,7 +35,6 @@ md-card {
 
 .big-card {
   margin: auto;
-  margin-top: 1%;
+  margin-top: 30px;
   width: 90%;
-  padding: 24px;
 }

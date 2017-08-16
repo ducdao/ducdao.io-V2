@@ -1,10 +1,9 @@
-<nav [hidden]="true" md-tab-nav-bar class="nav-bar">
-  <a md-tab-link
-      *ngFor="let tab of navLinks"
-      [routerLink]="tab.link"
-      routerLinkActive #rla="routerLinkActive"
-      [active]="rla.isActive">
-      {{tab.pageName}}
+<nav md-tab-nav-bar>
+  <a md-tab-link *ngFor="let tab of navLinks"
+    [routerLink]="tab.link"
+    routerLinkActive #rla="routerLinkActive"
+    [active]="rla.isActive">
+    {{ tab.pageName }}
   </a>
 </nav>
 

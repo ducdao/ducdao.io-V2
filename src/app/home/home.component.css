@@ -25,26 +25,19 @@ body {
 
 .landing-card-desktop {
   margin: auto;
-  margin-top: 12%;
+  margin-top: 10%;
   width: 50%;
 }
 
 .landing-card-mobile {
-  margin: auto;
-  margin-top: 1%;
-  margin-bottom: 1%;
-  width: 65%;
+  padding-top: 1%;
+  padding-bottom: 7%;
+  width: 99%;
 }
 
 .avatar-image {
   background-image: url("ducdao.png");
   background-size: cover;
-}
-
-#header{
-  background-color: rgba(0, 0, 0,.25);
-  position:fixed;
-  width:100%;
 }
 
 .column-left { 
@@ -59,15 +52,4 @@ body {
   float: right; 
   width: 50%; 
   height: 100%; 
-}
-
-md-tab-group {
-  width: 100%;
-}
-
-h1 {
-  font-weight: 100;
-  font-size: 700%;
-  color: white;
-  text-align: center;
 }
