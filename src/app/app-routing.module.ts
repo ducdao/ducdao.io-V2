@@ -1,5 +1,5 @@
 import { HomeComponent } from './home/home.component';
-import { ContactComponent } from './contact/contact.component';
+import { ResumeComponent } from './resume/resume.component';
 import { PersonalComponent } from './personal/personal.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
@@ -12,7 +12,7 @@ const appRoutes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'projects', component: ProjectsComponent },
   { path: 'personal', component: PersonalComponent },
-  { path: 'contact', component: ContactComponent }, 
+  { path: 'resume', component: ResumeComponent }, 
   { path: 'notFound', component: PageNotFoundComponent},
   { path: '**', redirectTo: '/notFound'}
 ];

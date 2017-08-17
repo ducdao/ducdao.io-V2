@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { PersonalComponent } from './personal/personal.component';
-import { ContactComponent } from './contact/contact.component';
+import { ResumeComponent } from './resume/resume.component';
 import { HomeComponent } from './home/home.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -21,7 +21,8 @@ import { MdButtonModule,
          MdProgressBarModule, 
          MdTabsModule,
          MdGridListModule,
-         MdTooltipModule } from '@angular/material';
+         MdTooltipModule,
+         MdListModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -29,8 +30,9 @@ import { MdButtonModule,
     PageNotFoundComponent,
     ProjectsComponent,
     PersonalComponent,
-    ContactComponent,
-    HomeComponent
+    ResumeComponent,
+    HomeComponent,
+    ResumeComponent
   ],
   imports: [
     BrowserModule,
@@ -47,7 +49,8 @@ import { MdButtonModule,
     MdProgressBarModule,
     MdTabsModule,
     MdGridListModule,
-    MdTooltipModule
+    MdTooltipModule,
+    MdListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

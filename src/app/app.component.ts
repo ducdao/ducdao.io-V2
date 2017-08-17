@@ -11,7 +11,6 @@ export class AppComponent {
       {pageName: 'HOME',     link: '/'},
       {pageName: 'RESUME' ,  link: '/resume'},
       {pageName: 'PROJECTS', link: '/projects'},
-      {pageName: 'PERSONAL', link: '/personal'},
-      {pageName: 'CONTACT',  link: '/contact'}
+      {pageName: 'PERSONAL', link: '/personal'}
     ];
  }
