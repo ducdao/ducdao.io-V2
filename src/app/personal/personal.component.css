@@ -15,7 +15,7 @@ body {
   display: inline-block; 
   width: 30.3%; 
   height: 100%;
-  margin-left: 75px; 
+  margin-left: 4vw; 
 }
 
 .column-right { 
@@ -30,11 +30,11 @@ body {
 }
 
 md-card {
-  margin-top: 20%;
+  margin-left: 5%;
+  margin-top: 6%;
+  width: 28vw;
 }
 
-.big-card {
-  margin: auto;
-  margin-top: 30px;
-  width: 90%;
+.card-last {
+  margin-bottom: 75px;
 }

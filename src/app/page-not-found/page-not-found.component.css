@@ -1,0 +1,12 @@
+h1,h2 {
+   font-weight: 100;
+   color: white;
+}
+
+.chen {
+   text-align: center;
+   background-image: url("sadchen.png");
+   background-size: fill;
+   background-repeat: no-repeat;
+   background-position: center;
+}
