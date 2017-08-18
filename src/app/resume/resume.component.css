@@ -1,5 +1,4 @@
 body {
-   overflow-x: hidden;
-   overflow-y: auto;
-   height: auto;
+   overflow: hidden;
+   height: 100%;
 }

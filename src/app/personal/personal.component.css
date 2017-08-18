@@ -29,12 +29,26 @@ body {
   background-size: cover;
 }
 
-md-card {
+.card-desktop {
   margin-left: 5%;
   margin-top: 6%;
   width: 28vw;
 }
 
-.card-last {
-  margin-bottom: 75px;
+.card-desktop-last {
+  margin-left: 5%;
+  margin-top: 6%;
+  margin-bottom: 64px;
+  width: 28vw;
+}
+
+.card-mobile {
+ margin: 16px;
+ width: 100%;
+}
+
+.card-mobile-last {
+ margin: 16px;
+ margin-bottom: 64px;
+ width: 100%;
 }

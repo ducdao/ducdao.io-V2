@@ -1,7 +1,7 @@
 <body *isDesktop>
    <div class="column-left">
       <!-- ducdao.io card -->
-      <md-card>
+      <md-card class="card-desktop">
          <md-card-header>
             <div md-card-avatar class="avatar-image"></div>
             <md-card-title>ducdao.io</md-card-title>
@@ -37,7 +37,7 @@
       </md-card>
 
       <!-- LA Hacks card -->
-      <md-card>
+      <md-card class="card-desktop-last">
             <md-card-header>
                <div md-card-avatar class="avatar-image"></div>
                <md-card-title>Helping Hand</md-card-title>
@@ -47,7 +47,7 @@
             <img md-card-image style="max-width:fill;"
                src="http://s3.amazonaws.com/churchplantmedia-cms/currey_creek_church_boerne_tx/volunteer.png" 
                alt="Helping Hand" mdTooltip="Image Source: http://s3.amazonaws.com/churchplantmedia-cms/currey_creek_church_boerne_tx/volunteer.png" 
-               mdTooltipPosition="left" 
+               mdTooltipPosition="above" 
                mdTooltipShowDelay="1000">
          
             <md-card-content>
@@ -83,7 +83,7 @@
    
    <div class="column-middle">  
       <!-- ELI5-- card -->
-      <md-card class="card-last">
+      <md-card class="card-desktop">
          <md-card-header>
             <div md-card-avatar class="avatar-image"></div>
             <md-card-title>ELI5--</md-card-title>
@@ -122,7 +122,7 @@
    
    <div class="column-right">
       <!-- Dino card -->
-      <md-card class="card-last">
+      <md-card class="card-desktop">
          <md-card-header>
          <div md-card-avatar class="avatar-image"></div>
          <md-card-title>Dino</md-card-title>
@@ -132,7 +132,7 @@
          <img md-card-image style="max-width: cover;"
          src="http://i0.kym-cdn.com/photos/images/original/000/976/343/eb4.jpg" 
          alt="StarCraft II" mdTooltip="Shoutout to Thomas for being a team player!" 
-         mdTooltipPosition="left" 
+         mdTooltipPosition="above" 
          mdTooltipShowDelay="500">
    
          <md-card-content>
@@ -166,7 +166,166 @@
    </div>
 </body>
 
+<!-- ==================== Mobile view ==================== -->
+
 <body *isMobile>
-<h1>This is for mobile!</h1>
+   <!-- ducdao.io card -->
+   <md-card class="card-mobile">
+      <md-card-header>
+         <div md-card-avatar class="avatar-image"></div>
+         <md-card-title>ducdao.io</md-card-title>
+         <md-card-subtitle>Angular 4</md-card-subtitle>
+      </md-card-header>
+
+      <img md-card-image style="max-width:cover;"
+         src="http://i.imgur.com/PnHmaMH.png" 
+         alt="ducdao.io" mdTooltip="I always wanted to use Material Design!" 
+         mdTooltipPosition="above" 
+         mdTooltipShowDelay="1000">
+
+      <md-card-content>
+         <p>
+            You're looking at it! ducdao.io is my personal website built 
+            with Angular 4 and uses Angular Material to implement Google's 
+            Material Design language. Many thanks to my fellow California 
+            Cyber Training Complex 2017 interns for helping me learn Angular.
+         </p>
+      </md-card-content>
+
+      <md-card-actions>
+         <a md-button href="https://github.com/ducdao/ducdao.io-V2" 
+            target="_blank" style="color: #9C27B0">
+            SOURCE</a>
+         <a md-button href="https://angular.io/" 
+            target="_blank" style="color: #2196F3">
+            ANGULAR</a>
+         <a md-button href="https://material.angular.io/" 
+            target="_blank" style="color: #E91E63">
+            ANGULAR MATERIAL</a>
+      </md-card-actions>
+   </md-card>
+
+   <!-- ELI5-- card -->
+   <md-card class="card-mobile">
+      <md-card-header>
+         <div md-card-avatar class="avatar-image"></div>
+         <md-card-title>ELI5--</md-card-title>
+         <md-card-subtitle>iOS</md-card-subtitle>
+      </md-card-header>
+
+      <img md-card-image style="max-width:cover;"
+         src="http://az616578.vo.msecnd.net/files/2016/07/01/636029417935340699-58088307_reddit.jpg" 
+         alt="ELI5--" mdTooltip="Image Source: http://az616578.vo.msecnd.net/files/2016/07/01/636029417935340699-58088307_reddit.jpg" 
+         mdTooltipPosition="above" 
+         mdTooltipShowDelay="1000">
+
+      <md-card-content>
+         <p>
+            ELI5-- is an iOS application that parses threads from 
+            https://www.reddit.com/r/explainlikeimfive/, simplifies 
+            the top explanation, and provides images to supplement it. 
+            ELI5-- is my final project for Cal Poly's Mobile Application 
+            Development, CSC 436.
+         </p>
+      </md-card-content>
+
+      <md-card-actions>
+         <a md-button href="https://github.com/ducdao/ELI5--" 
+            target="_blank" style="color: #9C27B0">
+            SOURCE</a>
+         <a md-button href="https://www.reddit.com/r/explainlikeimfive/" 
+            target="_blank" style="color: #F44336">
+            ELI5</a>
+         <a md-button href="http://catalog.calpoly.edu/search/?P=CSC%20436" 
+            target="_blank" style="color: green">
+            CSC 436</a>
+      </md-card-actions>
+   </md-card>
+
+   <!-- Dino card -->
+   <md-card class="card-mobile">
+      <md-card-header>
+      <div md-card-avatar class="avatar-image"></div>
+      <md-card-title>Dino</md-card-title>
+      <md-card-subtitle>Unreal Engine 4.16</md-card-subtitle>
+      </md-card-header>
+
+      <img md-card-image style="max-width: cover;"
+      src="http://i0.kym-cdn.com/photos/images/original/000/976/343/eb4.jpg" 
+      alt="StarCraft II" mdTooltip="Shoutout to Thomas for being a team player!" 
+      mdTooltipPosition="above" 
+      mdTooltipShowDelay="500">
+
+      <md-card-content>
+         <p>
+            Created by Alex Bartlett, Duc Dao, Thomas Franklin, and Khammadao Lee.
+         </p>
+         <p>
+            Dino is a top down shooter made in Unreal Engine 4 for Cal Poly's 
+            Game Design class, CSC 371. You play as Laser Raptor, one of the 
+            few dinosaurs who have survived a meteor strike, granting you the 
+            ability to shoot laser beams through your eyes. The goal of the game 
+            is to survive as long as possible.
+         </p>
+         <p>
+            Dino was inspired by Kung Fury.
+         </p>
+      </md-card-content>
+
+      <md-card-actions style="text-align: right;">
+         <a md-button href="https://github.com/ducdao/Dino" 
+            target="_blank" style="color: #9C27B0">
+            SOURCE</a>
+         <a md-button href="https://en.wikipedia.org/wiki/Kung_Fury" 
+            target="_blank" style="color: #E53935">
+            KUNG FURY</a>
+         <a md-button href="http://catalog.calpoly.edu/search/?P=CSC%20371" 
+            target="_blank" style="color: green">
+            CSC 371</a>
+         </md-card-actions>
+   </md-card>
+
+   <!-- LA Hacks card -->
+   <md-card class="card-mobile-last">
+      <md-card-header>
+         <div md-card-avatar class="avatar-image"></div>
+         <md-card-title>Helping Hand</md-card-title>
+         <md-card-subtitle>LA Hacks 2017</md-card-subtitle>
+      </md-card-header>
+   
+      <img md-card-image style="max-width:fill;"
+         src="http://s3.amazonaws.com/churchplantmedia-cms/currey_creek_church_boerne_tx/volunteer.png" 
+         alt="Helping Hand" mdTooltip="Image Source: http://s3.amazonaws.com/churchplantmedia-cms/currey_creek_church_boerne_tx/volunteer.png" 
+         mdTooltipPosition="above" 
+         mdTooltipShowDelay="1000">
+   
+      <md-card-content>
+         <p>
+            Helping Hand is a platform built to connect two types of users: 
+            organizations providing volunteering opportunities and users looking 
+            for volunteering opportunities. 
+         </p>
+         <p>
+            Once a volunteering opportunity is 
+            complete, the organization will verify the completion of the 
+            opportunity and it will be recorded for the user, contributing to 
+            their achievements. The website provides a feature for the user to 
+            generate useful documents such us Volunteer History and Volunteer 
+            Data that can serve as a professional reference.
+         </p> 
+         <p>
+            Helping Hand was built at LA Hacks 2017.
+         </p>
+      </md-card-content>
+   
+      <md-card-actions>
+         <a md-button href="http://volunteertest.weebly.com/" 
+            target="_blank" style="color: #9C27B0">
+            HELPING HAND</a>
+         <a md-button href="https://lahacks.com/" 
+            target="_blank" style="color: #F06292">
+            LA HACKS</a>
+      </md-card-actions>
+   </md-card>
 </body>
    
