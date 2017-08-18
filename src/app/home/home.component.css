@@ -11,6 +11,15 @@ body {
   padding-left: 20%;
 }
 
+.splash-text-sub {
+  text-align: center;
+  font-size: 2vw;
+  font-weight: 100;
+  color: white;
+  padding-left: 10vw;
+  margin-top: -16vw;
+}
+
 .spacer {
   flex: 1 1 auto;
 }
