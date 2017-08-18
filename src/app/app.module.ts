@@ -10,6 +10,8 @@ import { PersonalComponent } from './personal/personal.component';
 import { ResumeComponent } from './resume/resume.component';
 import { HomeComponent } from './home/home.component';
 
+import { GetCardsService } from './get-cards.service';
+
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MdButtonModule, 
          MdCardModule, 
@@ -52,7 +54,7 @@ import { MdButtonModule,
     MdTooltipModule,
     MdListModule
   ],
-  providers: [],
+  providers: [GetCardsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
