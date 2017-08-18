@@ -43,11 +43,11 @@ body {
 
  .card-mobile {
   margin: 16px;
-  width: 100%;
+  width: stretch;
 }
 
 .card-mobile-last {
   margin: 16px;
   margin-bottom: 64px;
-  width: 100%;
+  width: stretch;
 }

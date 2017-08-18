@@ -39,11 +39,11 @@ body {
 }
 
 .landing-card-mobile {
-  padding-top: 1%;
-  padding-bottom: 7%;
+  margin-top: 5%;
+  margin-bottom: 7%;
   margin-left: 16px;
   margin-right: 16px;
-  width: 100%;
+  width: stretch;
 }
 
 .avatar-image {

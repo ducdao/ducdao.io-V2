@@ -10,6 +10,6 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    console.log("Duc v1");
   }
-
 }
