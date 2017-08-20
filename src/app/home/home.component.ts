@@ -7,11 +7,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+  cards:any;
 
   constructor(private getCardsService: GetCardsService) { }
 
   ngOnInit() {
-    console.log("Duc v1");
     // Get card information from firebase
+    this.getCardsService.getAllCards().subscribe(cards => {
+      console.log(cards[0]);
+      this.cards = cards[0];
+    })
   }
 }

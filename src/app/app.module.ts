@@ -1,7 +1,10 @@
+import { firebaseConfig } from './../environments/firebase.config';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { ResponsiveModule } from 'ng2-responsive';
 import { HttpModule } from '@angular/http';
+import { AngularFireModule } from 'angularfire2';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -42,6 +45,8 @@ import { MdButtonModule,
     BrowserAnimationsModule,
     ResponsiveModule,
     HttpModule,
+    AngularFireModule.initializeApp(firebaseConfig),
+    AngularFireDatabaseModule,
     AppRoutingModule,
     MdButtonModule,
     MdMenuModule,
