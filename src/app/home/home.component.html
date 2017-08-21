@@ -13,27 +13,22 @@
       <md-card-subtitle>{{ cards?.subtitle }}</md-card-subtitle>
     </md-card-header>
 
-    <!--https://c1.staticflickr.com/1/344/18573055643_59c8c7bbeb_k.jpg-->
-
     <img md-card-image style="max-width: fill;" 
-      src="http://i.imgur.com/0SPI9MP.jpg" alt="Duc Dao"
-      mdTooltip="Dunken Dounts, Cleveland Hopkins International Airport 2014" 
+      [src]="cards?.imgSrc" [alt]="cards?.imgAlt"
+      [mdTooltip]="cards?.tooltip" 
       mdTooltipPosition="left" mdTooltipShowDelay="1000">
 
     <md-card-content>
-      <p>
-        Greetings, friend! My name is Duc Dao and I am an undergraduate 
-        student attending California Polytechnic State University, San Luis 
-        Obispo majoring in Computer Science.
-      </p>     
-        
+      <p>{{ cards?.content }}</p>     
     </md-card-content>
 
     <md-card-actions>
-      <a md-button href="http://www.calpoly.edu/" 
-        target="_blank" style="color:green">CAL POLY</a>
-      <a md-button href="http://hearthstone.gamepedia.com/Shaman" 
-        target="_blank" style="color: orange">GREETINGS, FRIEND!</a>
+      <a md-button [href]="cards?.buttons['1']?.link" 
+        target="_blank" [style.color]="cards?.buttons['1']?.color">
+        {{ cards?.buttons['1']?.text }}</a>
+      <a md-button [href]="cards?.buttons['2']?.link" 
+        target="_blank" [style.color]="cards?.buttons['2']?.color">
+        {{ cards?.buttons['2']?.text }}</a>
     </md-card-actions>
   </md-card>
   </div>
@@ -45,31 +40,28 @@
   <md-card class="landing-card-mobile">
     <md-card-header>
       <div md-card-avatar class="avatar-image"></div>
-      <md-card-title>Duc Dao</md-card-title>
-      <md-card-subtitle>Cal Poly</md-card-subtitle>
+      <md-card-title>{{ cards?.title }}</md-card-title>
+      <md-card-subtitle>{{ cards?.subtitle }}</md-card-subtitle>
     </md-card-header>
 
     <!--https://c1.staticflickr.com/1/344/18573055643_59c8c7bbeb_k.jpg-->
 
     <img md-card-image style="max-width: fill;" 
-      src="http://i.imgur.com/0SPI9MP.jpg" alt="Duc Dao"
-      mdTooltip="Dunken Dounts, Cleveland Hopkins International Airport 2014" 
+      [src]="cards?.imgSrc" [alt]="cards?.imgAlt"
+      [mdTooltip]="cards?.tooltip" 
       mdTooltipPosition="left" mdTooltipShowDelay="1000">
 
     <md-card-content>
-      <p>
-        Greetings, friend! My name is Duc Dao and I am an undergraduate 
-        student attending California Polytechnic State University, San Luis 
-        Obispo majoring in Computer Science.
-      </p>     
-        
+      <p>{{ cards?.content }]</p>
     </md-card-content>
 
     <md-card-actions>
-      <a md-button href="http://www.calpoly.edu/" 
-        target="_blank" style="color:green">CAL POLY</a>
-      <a md-button href="http://hearthstone.gamepedia.com/Shaman" 
-        target="_blank" style="color: orange">GREETINGS, FRIEND!</a>
+      <a md-button [href]="cards?.buttons['1']?.link" 
+        target="_blank" [style.color]="cards?.buttons['1']?.color">
+        {{ cards?.buttons['1']?.text }}</a>
+      <a md-button [href]="cards?.buttons['2']?.link" 
+        target="_blank" [style.color]="cards?.buttons['2']?.color">
+        {{ cards?.buttons['2']?.text }}</a>
     </md-card-actions>
   </md-card>
   </div>
