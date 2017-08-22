@@ -13,7 +13,7 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     // Get card information from firebase
-    this.getCardsService.getAllCards().subscribe(cards => {
+    this.getCardsService.getHomeCards().subscribe(cards => {
       //console.log(cards[0]);
       this.cards = cards[0];
     })

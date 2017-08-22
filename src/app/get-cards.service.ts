@@ -11,9 +11,14 @@ export class GetCardsService {
 
   constructor(private http: Http, private afd: AngularFireDatabase) { }
 
-  // Get all cards from Firebase
-  getAllCards() {
+  getHomeCards() {
     this.cards = this.afd.list('/home') as FirebaseListObservable<Cards[]>
+
+    return this.cards;
+  }
+
+  getProjectCards() {
+    this.cards = this.afd.list('/projects') as FirebaseListObservable<Cards[]>
 
     return this.cards;
   }
