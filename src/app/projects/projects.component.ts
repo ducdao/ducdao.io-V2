@@ -14,6 +14,13 @@ export class ProjectsComponent implements OnInit {
    // Sorted cards
    cards:any[] = [];
 
+   tiles = [
+      {text: 'One', cols: 3, rows: 1, color: 'lightblue'},
+      {text: 'Two', cols: 1, rows: 2, color: 'lightgreen'},
+      {text: 'Three', cols: 1, rows: 1, color: 'lightpink'},
+      {text: 'Four', cols: 2, rows: 1, color: '#DDBDF1'},
+    ];
+
    constructor(private getCardsService: GetCardsService) { }
 
    ngOnInit() {
@@ -22,6 +29,7 @@ export class ProjectsComponent implements OnInit {
          console.log(cards);
          this.cardData = cards;
          
+         // Create array of cards
          for (let key in this.cardData) {
             this.cards.push(this.cardData[key]);
          }    

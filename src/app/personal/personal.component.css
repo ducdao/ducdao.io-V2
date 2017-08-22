@@ -3,6 +3,8 @@ body {
   width: 100%;
   overflow-x: hidden;
   overflow-y: auto; 
+  padding-left: 20%;
+  padding-right: 20%; 
   padding-bottom: 64px;
 }
 .column-left { 

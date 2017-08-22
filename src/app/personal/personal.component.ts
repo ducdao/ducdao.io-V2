@@ -18,6 +18,7 @@ export class PersonalComponent implements OnInit {
         console.log(cards);
         this.cardData = cards;
         
+        // Create array of cards
         for (let key in this.cardData) {
            this.cards.push(this.cardData[key]);
         }    
