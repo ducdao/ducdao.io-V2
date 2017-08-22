@@ -1,9 +1,9 @@
 body {
-  position: fixed;
   height: stretch;
   width: 100%;
   overflow-x: hidden;
   overflow-y: auto; 
+  padding-bottom: 64px;
 }
 .column-left { 
   float: left; 
@@ -30,8 +30,7 @@ body {
 }
 
 .card-desktop {
-  margin-left: 5%;
-  margin-top: 6%;
+  margin: 16px;
   width: 28vw;
 }
 

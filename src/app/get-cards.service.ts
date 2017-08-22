@@ -6,19 +6,13 @@ import 'rxjs/add/operator/map';
 
 @Injectable()
 export class GetCardsService {
-  url = "https://ducdao.io/";
   cards: FirebaseListObservable<any[]>;
 
   constructor(private http: Http, private afd: AngularFireDatabase) { }
 
-  getHomeCards() {
-    this.cards = this.afd.list('/home') as FirebaseListObservable<Cards[]>
-
-    return this.cards;
-  }
-
-  getProjectCards() {
-    this.cards = this.afd.list('/projects') as FirebaseListObservable<Cards[]>
+  // Get all cards for a certain page
+  getCards(page: any) {
+    this.cards = this.afd.list(page) as FirebaseListObservable<Cards[]>
 
     return this.cards;
   }
