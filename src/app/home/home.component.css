@@ -46,11 +46,6 @@ body {
   width: stretch;
 }
 
-.avatar-image {
-  background-image: url("ducdao.png");
-  background-size: cover;
-}
-
 .column-left { 
   float: left; 
   width: 50%; 

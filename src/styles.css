@@ -27,6 +27,11 @@ body {
 	margin-top: 10%;
  }
 
+ .avatar-image {
+	background-image: url("ducdao.png");
+	background-size: cover;
+ }
+
 .github-color {
 	background-color: #913399;
 }

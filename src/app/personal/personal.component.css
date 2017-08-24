@@ -1,55 +1,17 @@
 body {
   height: stretch;
-  width: 100%;
+  width: cover;
   overflow-x: hidden;
-  overflow-y: auto; 
-  padding-left: 20%;
-  padding-right: 20%; 
+  overflow-y: auto;
   padding-bottom: 64px;
 }
-.column-left { 
-  float: left; 
-  width: 30.3%; 
-  height: 100%; 
-}
 
-.column-middle {
-  display: inline-block; 
-  width: 30.3%; 
-  height: 100%;
-  margin-left: 4vw; 
-}
-
-.column-right { 
-  float: right; 
-  width: 30.3%; 
-  height: 100%; 
-}
-
-.avatar-image {
-  background-image: url("ducdao.png");
-  background-size: cover;
+.margin-desktop {
+  padding-left: 20%;
+  padding-right: 20%; 
 }
 
 .card-desktop {
+  width: stretch;
   margin: 16px;
-  width: 28vw;
-}
-
-.card-desktop-last {
-  margin-left: 5%;
-  margin-top: 6%;
-  margin-bottom: 64px;
-  width: 28vw;
-}
-
-.card-mobile {
- margin: 16px;
- width: stretch;
-}
-
-.card-mobile-last {
- margin: 16px;
- margin-bottom: 64px;
- width: stretch;
 }
