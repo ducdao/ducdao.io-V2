@@ -2,11 +2,15 @@ nav {
   position: fixed;
   top: 0%;
   text-align: right;
-  background-color: rgba(33,33,33,.50);
+
+  /* Needed for transparent navbar */
+  background-color: rgba(33,33,33,.00);
 
   /* Keep navbar above everything */
   overflow: hidden;
   height: 48px;
+  box-shadow: none;
+  border: 0;
 }
 
 body {
