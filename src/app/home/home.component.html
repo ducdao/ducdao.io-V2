@@ -16,20 +16,19 @@
     <img md-card-image style="max-width: fill;" 
       [src]="cards?.imgSrc" [alt]="cards?.imgAlt"
       [mdTooltip]="cards?.tooltip" 
-      mdTooltipPosition="left" mdTooltipShowDelay="1000">
+      mdTooltipPosition="above" mdTooltipShowDelay="1000">
 
     <md-card-content>
-      <p>{{ cards?.content }}</p>     
+      <p [innerHTML]="cards?.content"></p> 
     </md-card-content>
 
     <md-card-actions>
-      <a md-button [href]="cards?.buttons['1']?.link" 
-        target="_blank" [style.color]="cards?.buttons['1']?.color">
-        {{ cards?.buttons['1']?.text }}</a>
-      <a md-button [href]="cards?.buttons['2']?.link" 
-        target="_blank" [style.color]="cards?.buttons['2']?.color">
-        {{ cards?.buttons['2']?.text }}</a>
-    </md-card-actions>
+      <div style="display:inline-block">
+      <a md-button *ngFor="let button of cards?.buttons" [href]="button?.link"
+         target="_blank" style="float: left" [style.color]="button?.color">
+         {{ button?.text }}</a>
+      </div>
+   </md-card-actions>
   </md-card>
   </div>
 </body>
@@ -49,20 +48,19 @@
     <img md-card-image style="max-width: fill;" 
       [src]="cards?.imgSrc" [alt]="cards?.imgAlt"
       [mdTooltip]="cards?.tooltip" 
-      mdTooltipPosition="left" mdTooltipShowDelay="1000">
+      mdTooltipPosition="above" mdTooltipShowDelay="1000">
 
     <md-card-content>
-      <p>{{ cards?.content }}</p>
+      <p [innerHTML]="cards?.content"></p>
     </md-card-content>
 
     <md-card-actions>
-      <a md-button [href]="cards?.buttons['1']?.link" 
-        target="_blank" [style.color]="cards?.buttons['1']?.color">
-        {{ cards?.buttons['1']?.text }}</a>
-      <a md-button [href]="cards?.buttons['2']?.link" 
-        target="_blank" [style.color]="cards?.buttons['2']?.color">
-        {{ cards?.buttons['2']?.text }}</a>
-    </md-card-actions>
+      <div style="display:inline-block">
+      <a md-button *ngFor="let button of cards?.buttons" [href]="button?.link"
+         target="_blank" style="float: left" [style.color]="button?.color">
+         {{ button?.text }}</a>
+      </div>
+   </md-card-actions>
   </md-card>
   </div>
 </body>

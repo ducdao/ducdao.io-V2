@@ -3,8 +3,8 @@
     *ngFor="let tab of navLinks"
     [routerLink]="tab.link"
     routerLinkActive #rla="routerLinkActive"
-    [active]="rla.isActive">
-    <span style="font-weight: 400;">{{ tab.pageName }}</span>
+    [active]="rla.isActive"
+    style="font-weight: 400;">{{ tab.pageName }}
   </a>
 </nav>
 
