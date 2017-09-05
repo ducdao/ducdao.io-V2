@@ -1,19 +1,20 @@
 # ducdao.io
-Duc Dao's personal website utilizing Angular 4, Firebase, 
-[Angular Material](https://material.angular.io/), and MaterializeCSS. 
+Duc Dao's personal website utilizing:
+* [Angular 4](https://angular.io/)
+* [Firebase](http://firebase.google.com/) 
+* [Angular Material](https://material.angular.io/)
+* [MaterializeCSS](http://materializecss.com/) 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) 
 version 1.2.0.
 
-## Libaries Used
+## Components Used
 ### [Angular Material](https://material.angular.io/)
-  Components used:
   * [Button](https://material.angular.io/components/button/overview)
   * [Card](https://material.angular.io/components/card/overview)
   * [Grid List](https://material.angular.io/components/grid-list/overview)
   * [Tab Nav Bar](https://material.angular.io/components/tabs/overview)
 ### [MaterializeCSS](https://materializecss.com/)
-  Components used:
-  * Vertical Floating Action Button (FAB)
+  * Vertical Floating Action [Button](http://materializecss.com/buttons.html) (FAB)
 
 ## Development Server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`.o 
