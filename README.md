@@ -9,14 +9,14 @@ version 1.2.0.
   Components used:
     * Buttons
     * Cards
-    * Tabs
     * Grid Tiles
+    * Tab Nav Bar
 ### [MaterializeCSS](https://materializecss.com/)
   Components used:
     * Vertical Floating Action Button (FAB)
 
 ## Development Server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. 
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`.o 
 The app will automatically reload if you change any of the source files.
 
 ## Code Scaffolding
