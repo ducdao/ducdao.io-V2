@@ -17,7 +17,7 @@
         [src]="cards?.imgSrc" 
         [alt]="cards?.imgAlt"
         [mdTooltip]="cards?.tooltip" 
-        mdTooltipPosition="above" 
+        mdTooltipPosition="left" 
         mdTooltipShowDelay="1000">
 
       <md-card-content>
@@ -25,12 +25,12 @@
       </md-card-content>
 
       <md-card-actions>
-        <a md-button 
+        <a md-button
           *ngFor="let button of cards?.buttons" 
           [href]="button?.link"
           target="_blank" 
           [style.color]="button?.color">
-        {{ button?.text }}</a>
+          {{ button?.text }}</a>
     </md-card-actions>
     </md-card>
   </div>
@@ -49,7 +49,7 @@
         [src]="cards?.imgSrc" 
         [alt]="cards?.imgAlt"
         [mdTooltip]="cards?.tooltip" 
-        mdTooltipPosition="above" 
+        mdTooltipPosition="left" 
         mdTooltipShowDelay="1000">
 
       <md-card-content>
@@ -57,7 +57,7 @@
       </md-card-content>
 
       <md-card-actions>
-        <a md-button 
+        <a md-button
           *ngFor="let button of cards?.buttons" 
           [href]="button?.link"
           target="_blank" 

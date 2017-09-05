@@ -26,10 +26,9 @@
           <a md-button 
             *ngFor="let button of card.buttons" 
             [href]="button?.link" 
-            target="_blank" 
-            style="float: left" 
+            target="_blank"
             [style.color]="button?.color">
-          {{ button?.text }}</a>
+            {{ button?.text }}</a>
         </md-card-actions>
       </md-card>
     </md-grid-tile>
@@ -62,9 +61,8 @@
         *ngFor="let button of card.buttons" 
         [href]="button?.link" 
         target="_blank" 
-        style="float: left" 
         [style.color]="button?.color">
-      {{ button?.text }}</a>
+        {{ button?.text }}</a>
     </md-card-actions>
   </md-card>
 </body>
