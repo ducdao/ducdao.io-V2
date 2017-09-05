@@ -7,13 +7,13 @@ version 1.2.0.
 ## Libaries Used
 ### [Angular Material](https://material.angular.io/)
   Components used:
-    * Buttons
-    * Cards
-    * Grid Tiles
-    * Tab Nav Bar
+  * Buttons
+  * Cards
+  * Grid Tiles
+  * Tab Nav Bar
 ### [MaterializeCSS](https://materializecss.com/)
   Components used:
-    * Vertical Floating Action Button (FAB)
+  * Vertical Floating Action Button (FAB)
 
 ## Development Server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`.o 
