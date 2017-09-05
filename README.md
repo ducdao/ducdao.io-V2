@@ -7,10 +7,10 @@ version 1.2.0.
 ## Libaries Used
 ### [Angular Material](https://material.angular.io/)
   Components used:
-  * Buttons
-  * Cards
-  * Grid Tiles
-  * Tab Nav Bar
+  * [Button](https://material.angular.io/components/button/overview)
+  * [Card](https://material.angular.io/components/card/overview)
+  * [Grid List](https://material.angular.io/components/grid-list/overview)
+  * [Tab Nav Bar](https://material.angular.io/components/tabs/overview)
 ### [MaterializeCSS](https://materializecss.com/)
   Components used:
   * Vertical Floating Action Button (FAB)
