@@ -4,6 +4,7 @@ Duc Dao's personal website utilizing:
 * [Firebase](http://firebase.google.com/) 
 * [Angular Material](https://material.angular.io/)
 * [MaterializeCSS](http://materializecss.com/) 
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) 
 version 1.2.0.
 

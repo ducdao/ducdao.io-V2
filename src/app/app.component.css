@@ -29,6 +29,6 @@ body {
   height: 56dp;
 }
 
-md-tab-link {
+a {
   font-weight: 400;
 }
