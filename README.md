@@ -6,13 +6,13 @@ version 1.2.0.
 
 ## Libaries Used
 ### [Angular Material](https://material.angular.io/)
-  #### Components Used
+  Components used:
     * Buttons
     * Cards
     * Tabs
     * Grid Tiles
 ### [MaterializeCSS](https://materializecss.com/)
-  #### Components Used
+  Components used:
     * Vertical Floating Action Button (FAB)
 
 ## Development Server
