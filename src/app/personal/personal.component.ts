@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./personal.component.css']
 })
 export class PersonalComponent implements OnInit {
-  cardData: any;
+  FBCardData: any;
   cards: any[] = []
 
   constructor(private getCardsService: GetCardsService) { }
@@ -16,11 +16,11 @@ export class PersonalComponent implements OnInit {
       // Get card information from Firebase
       this.getCardsService.getCards('personal').subscribe(cards => {
         console.log(cards);
-        this.cardData = cards;
+        this.FBCardData = cards;
         
-        // Create array of cards
-        for (let key in this.cardData) {
-           this.cards.push(this.cardData[key]);
+        // Create array of cards from Firebase data
+        for (let card in this.FBCardData) {
+           this.cards.push(this.FBCardData[card]);
         }    
         
         this.sortCards(); 
@@ -30,14 +30,14 @@ export class PersonalComponent implements OnInit {
      })
   }
 
+  // Sort cards by order attribute in Firebase
   sortCards() {
-     this.cards.sort(function(a, b) {
-        if (a.order > b.order)
-           return -1;
-        
-        if (a.order < b.order)
-           return 1;
-     });
+    this.cards.sort(function(a, b) {
+      if (a.order > b.order) 
+        return -1;
+      
+      if (a.order < b.order)
+        return 1;
+    });
   }
-
 }

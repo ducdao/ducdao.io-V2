@@ -51,3 +51,11 @@ body {
   width: 50%; 
   height: 100%; 
 }
+
+md-button {
+  float: left;
+}
+
+md-card-actions {
+  display: inline-block;
+}

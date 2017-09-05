@@ -15,3 +15,11 @@ body {
   margin: 16px;
   width: stretch;
 }
+
+md-button {
+  float: left;
+}
+
+md-card-actions {
+  display: inline-block;
+}

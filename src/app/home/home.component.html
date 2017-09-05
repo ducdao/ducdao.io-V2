@@ -6,62 +6,63 @@
 
   <!-- Introduction card -->
   <div class="column-right">
-  <md-card class="landing-card-desktop">
-    <md-card-header>
-      <div md-card-avatar class="avatar-image"></div>
-      <md-card-title>{{ cards?.title }}</md-card-title>
-      <md-card-subtitle>{{ cards?.subtitle }}</md-card-subtitle>
-    </md-card-header>
+    <md-card class="landing-card-desktop">
+      <md-card-header>
+        <div md-card-avatar class="avatar-image"></div>
+        <md-card-title>{{ cards?.title }}</md-card-title>
+        <md-card-subtitle>{{ cards?.subtitle }}</md-card-subtitle>
+      </md-card-header>
 
-    <img md-card-image style="max-width: fill;" 
-      [src]="cards?.imgSrc" [alt]="cards?.imgAlt"
-      [mdTooltip]="cards?.tooltip" 
-      mdTooltipPosition="above" mdTooltipShowDelay="1000">
+      <img md-card-image 
+        [src]="cards?.imgSrc" 
+        [alt]="cards?.imgAlt"
+        [mdTooltip]="cards?.tooltip" 
+        mdTooltipPosition="above" 
+        mdTooltipShowDelay="1000">
 
-    <md-card-content>
-      <p [innerHTML]="cards?.content"></p> 
-    </md-card-content>
+      <md-card-content>
+        <p [innerHTML]="cards?.content"></p> 
+      </md-card-content>
 
-    <md-card-actions>
-      <div style="display:inline-block">
-      <a md-button *ngFor="let button of cards?.buttons" [href]="button?.link"
-         target="_blank" style="float: left" [style.color]="button?.color">
-         {{ button?.text }}</a>
-      </div>
-   </md-card-actions>
-  </md-card>
+      <md-card-actions>
+        <a md-button 
+          *ngFor="let button of cards?.buttons" 
+          [href]="button?.link"
+          target="_blank" 
+          [style.color]="button?.color">
+        {{ button?.text }}</a>
+    </md-card-actions>
+    </md-card>
   </div>
 </body>
 
 <body *isMobile style="margin-bottom: 64px">
   <!-- Introduction card -->
-  <div>
-  <md-card class="landing-card-mobile">
-    <md-card-header>
-      <div md-card-avatar class="avatar-image"></div>
-      <md-card-title>{{ cards?.title }}</md-card-title>
-      <md-card-subtitle>{{ cards?.subtitle }}</md-card-subtitle>
-    </md-card-header>
+    <md-card class="landing-card-mobile">
+      <md-card-header>
+        <div md-card-avatar class="avatar-image"></div>
+        <md-card-title>{{ cards?.title }}</md-card-title>
+        <md-card-subtitle>{{ cards?.subtitle }}</md-card-subtitle>
+      </md-card-header>
 
-    <!--https://c1.staticflickr.com/1/344/18573055643_59c8c7bbeb_k.jpg-->
+      <img md-card-image 
+        [src]="cards?.imgSrc" 
+        [alt]="cards?.imgAlt"
+        [mdTooltip]="cards?.tooltip" 
+        mdTooltipPosition="above" 
+        mdTooltipShowDelay="1000">
 
-    <img md-card-image style="max-width: fill;" 
-      [src]="cards?.imgSrc" [alt]="cards?.imgAlt"
-      [mdTooltip]="cards?.tooltip" 
-      mdTooltipPosition="above" mdTooltipShowDelay="1000">
+      <md-card-content>
+        <p [innerHTML]="cards?.content"></p>
+      </md-card-content>
 
-    <md-card-content>
-      <p [innerHTML]="cards?.content"></p>
-    </md-card-content>
-
-    <md-card-actions>
-      <div style="display:inline-block">
-      <a md-button *ngFor="let button of cards?.buttons" [href]="button?.link"
-         target="_blank" style="float: left" [style.color]="button?.color">
-         {{ button?.text }}</a>
-      </div>
-   </md-card-actions>
-  </md-card>
-  </div>
+      <md-card-actions>
+        <a md-button 
+          *ngFor="let button of cards?.buttons" 
+          [href]="button?.link"
+          target="_blank" 
+          [style.color]="button?.color">
+          {{ button?.text }}</a>
+      </md-card-actions>
+    </md-card>
 </body>
-

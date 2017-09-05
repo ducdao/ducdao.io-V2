@@ -3,8 +3,8 @@
     *ngFor="let tab of navLinks"
     [routerLink]="tab.link"
     routerLinkActive #rla="routerLinkActive"
-    [active]="rla.isActive"
-    style="font-weight: 400;">{{ tab.pageName }}
+    [active]="rla.isActive">
+    {{ tab.pageName }}
   </a>
 </nav>
 
@@ -18,28 +18,32 @@
       <i class="material-icons">face</i>
     </button>
     <ul>
-      <li><a class ="btn-floating github-color"
+      <li><a class="btn-floating github-color"
         mdTooltip="GitHub" 
-        mdTooltipPosition="before" 
-        href="https://github.com/ducdao" target="_blank">
+        mdTooltipPosition="before"
+        target="_blank" 
+        href="https://github.com/ducdao">
         <i class="fa fa-github" style="font-size:24px;"></i></a>
       </li>
       <li><a class="btn-floating linkedin-color"
         mdTooltip="LinkedIn" 
         mdTooltipPosition="before" 
-        href="https://www.linkedin.com/in/duclongdao/" target="_blank">
+        target="_blank"
+        href="https://www.linkedin.com/in/duclongdao/">
         <i class="fa fa-linkedin-square" style="font-size:24px"></i></a>
       </li>
       <li><a class="btn-floating gmail-color" 
         mdTooltip="Gmail" 
-        mdTooltipPosition="before" 
-        href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=dldao@calpoly.edu&su=Hello Duc!&tf=1" target="_blank">
+        mdTooltipPosition="before"
+        target="_blank" 
+        href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=dldao@calpoly.edu&su=Hello Duc!&tf=1">
         <i class="material-icons">mail</i></a>
       </li>
       <li><a class="btn-floating resume-color" 
         mdTooltip="Resume" 
         mdTooltipPosition="before" 
-        href="https://drive.google.com/file/d/0B8nCs6tSnt3YdkhJMjBkV0NXdGc/view?usp=sharing" target="_blank">
+        target="_blank"
+        href="https://drive.google.com/file/d/0B8nCs6tSnt3YdkhJMjBkV0NXdGc/view?usp=sharing">
         <i class="material-icons">description</i></a>
       </li>
     </ul>

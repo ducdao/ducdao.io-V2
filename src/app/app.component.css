@@ -28,3 +28,7 @@ body {
   width: 56dp;
   height: 56dp;
 }
+
+md-tab-link {
+  font-weight: 400;
+}

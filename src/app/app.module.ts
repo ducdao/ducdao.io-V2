@@ -9,8 +9,8 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { ProjectsComponent } from './projects/projects.component';
 import { PersonalComponent } from './personal/personal.component';
+import { ProjectsComponent } from './projects/projects.component';
 import { ResumeComponent } from './resume/resume.component';
 import { HomeComponent } from './home/home.component';
 

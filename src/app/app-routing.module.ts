@@ -1,7 +1,7 @@
 import { HomeComponent } from './home/home.component';
 import { ResumeComponent } from './resume/resume.component';
-import { PersonalComponent } from './personal/personal.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { PersonalComponent } from './personal/personal.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { AppComponent } from './app.component';
 

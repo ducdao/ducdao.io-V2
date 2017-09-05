@@ -8,18 +8,8 @@ import { Component, OnInit } from '@angular/core';
    styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent implements OnInit {
-   // Unsorted card data from Firebase
-   cardData:any;
-
-   // Sorted cards
-   cards:any[] = [];
-
-   tiles = [
-      {text: 'One', cols: 3, rows: 1, color: 'lightblue'},
-      {text: 'Two', cols: 1, rows: 2, color: 'lightgreen'},
-      {text: 'Three', cols: 1, rows: 1, color: 'lightpink'},
-      {text: 'Four', cols: 2, rows: 1, color: '#DDBDF1'},
-    ];
+   FBCardData: any;
+   cards: any[] = [];
 
    constructor(private getCardsService: GetCardsService) { }
 
@@ -27,11 +17,11 @@ export class ProjectsComponent implements OnInit {
       // Get card information from Firebase
       this.getCardsService.getCards('projects').subscribe(cards => {
          console.log(cards);
-         this.cardData = cards;
+         this.FBCardData = cards;
          
          // Create array of cards
-         for (let key in this.cardData) {
-            this.cards.push(this.cardData[key]);
+         for (let card in this.FBCardData) {
+            this.cards.push(this.FBCardData[card]);
          }    
          
          this.sortCards(); 
@@ -41,6 +31,7 @@ export class ProjectsComponent implements OnInit {
       })
    }
 
+   // Sort cards by order attribute in Firebase
    sortCards() {
       this.cards.sort(function(a, b) {
          if (a.order > b.order)

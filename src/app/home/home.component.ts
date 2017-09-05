@@ -12,9 +12,8 @@ export class HomeComponent implements OnInit {
   constructor(private getCardsService: GetCardsService) { }
 
   ngOnInit() {
-    // Get card information from firebase
+    // Get card information from Firebase
     this.getCardsService.getCards('home').subscribe(cards => {
-      //console.log(cards[0]);
       this.cards = cards[0];
     })
   }
