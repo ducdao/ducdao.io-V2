@@ -25,42 +25,25 @@ body {
 	color: white;
 	text-align: center;
 	margin-top: 10%;
- }
+}
 
- .avatar-image {
+.avatar-image {
 	background-image: url("ducdao.png");
 	background-size: cover;
- }
+}
 
-.github-color {
+.github-color, .github-color:hover {
 	background-color: #913399;
 }
 
-.linkedin-color {
+.linkedin-color, .linkedin-color:hover {
 	background-color: #0077B5;
 }
 
-.gmail-color {
+.gmail-color, .gmail-color:hover {
 	background-color: #FF4343;
 }
 
-.resume-color {
-	background-color: #FF5722;
-}
-
-/* Retain color when hovering over FABs */
-.github-color:hover {
-	background-color: #913399;
-}
-
-.linkedin-color:hover {
-	background-color: #0077B5;
-}
-
-.gmail-color:hover {
-	background-color: #FF4343;
-}
-
-.resume-color:hover {
+.cv-color, .cv-color:hover {
 	background-color: #FF5722;
 }

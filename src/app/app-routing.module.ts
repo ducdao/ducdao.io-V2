@@ -1,5 +1,5 @@
 import { HomeComponent } from './home/home.component';
-import { ResumeComponent } from './resume/resume.component';
+import { CVComponent } from './cv/cv.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { PersonalComponent } from './personal/personal.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
@@ -10,9 +10,9 @@ import { RouterModule, Routes } from '@angular/router';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
+  { path: 'cv', component: CVComponent }, 
   { path: 'projects', component: ProjectsComponent },
   { path: 'personal', component: PersonalComponent },
-  { path: 'resume', component: ResumeComponent }, 
   { path: 'notFound', component: PageNotFoundComponent},
   { path: '**', redirectTo: '/notFound'}
 ];
