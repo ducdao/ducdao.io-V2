@@ -32,6 +32,7 @@ body {
 	background-size: cover;
 }
 
+/* FAB colors */
 .github-color, .github-color:hover {
 	background-color: #913399;
 }
@@ -46,4 +47,21 @@ body {
 
 .cv-color, .cv-color:hover {
 	background-color: #FF5722;
+}
+
+/* Scrollbar style */
+body::-webkit-scrollbar-track
+{
+	background-color: rgba(0,0,0,0);
+}
+
+body::-webkit-scrollbar
+{
+	width: 2px;
+	background-color: rgba(0,0,0,0);
+}
+
+body::-webkit-scrollbar-thumb
+{
+	background-color: rgba(255,255,255,.4);
 }
