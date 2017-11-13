@@ -17,18 +17,18 @@ import { HomeComponent } from './home/home.component';
 import { GetCardsService } from './get-cards.service';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MdButtonModule, 
-         MdCardModule, 
-         MdMenuModule, 
-         MdToolbarModule, 
-         MdIconModule, 
-         MdSidenavModule, 
-         MdProgressSpinnerModule,
-         MdProgressBarModule, 
-         MdTabsModule,
-         MdGridListModule,
-         MdTooltipModule,
-         MdListModule } from '@angular/material';
+import { MatButtonModule,
+         MatCardModule, 
+         MatMenuModule, 
+         MatToolbarModule, 
+         MatIconModule, 
+         MatSidenavModule, 
+         MatProgressSpinnerModule,
+         MatProgressBarModule, 
+         MatTabsModule,
+         MatGridListModule,
+         MatTooltipModule,
+         MatListModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -47,18 +47,18 @@ import { MdButtonModule,
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFireDatabaseModule,
     AppRoutingModule,
-    MdButtonModule,
-    MdMenuModule,
-    MdCardModule,
-    MdToolbarModule,
-    MdIconModule,
-	  MdSidenavModule,
-    MdProgressSpinnerModule,
-    MdProgressBarModule,
-    MdTabsModule,
-    MdGridListModule,
-    MdTooltipModule,
-    MdListModule
+    MatButtonModule,
+    MatMenuModule,
+    MatCardModule,
+    MatToolbarModule,
+    MatIconModule,
+	  MatSidenavModule,
+    MatProgressSpinnerModule,
+    MatProgressBarModule,
+    MatTabsModule,
+    MatGridListModule,
+    MatTooltipModule,
+    MatListModule
   ],
   providers: [GetCardsService],
   bootstrap: [AppComponent]

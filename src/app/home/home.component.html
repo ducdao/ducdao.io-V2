@@ -6,63 +6,63 @@
 
   <!-- Introduction card -->
   <div class="column-right">
-    <md-card class="landing-card-desktop">
-      <md-card-header>
-        <div md-card-avatar class="avatar-image"></div>
-        <md-card-title>{{ cards?.title }}</md-card-title>
-        <md-card-subtitle>{{ cards?.subtitle }}</md-card-subtitle>
-      </md-card-header>
+    <mat-card class="landing-card-desktop">
+      <mat-card-header>
+        <div mat-card-avatar class="avatar-image"></div>
+        <mat-card-title>{{ cards?.title }}</mat-card-title>
+        <mat-card-subtitle>{{ cards?.subtitle }}</mat-card-subtitle>
+      </mat-card-header>
 
-      <img md-card-image 
+      <img mat-card-image 
         [src]="cards?.imgSrc" 
         [alt]="cards?.imgAlt"
-        [mdTooltip]="cards?.tooltip" 
-        mdTooltipPosition="left" 
-        mdTooltipShowDelay="1000">
+        [matTooltip]="cards?.tooltip" 
+        matTooltipPosition="left" 
+        matTooltipShowDelay="1000">
 
-      <md-card-content>
+      <mat-card-content>
         <p [innerHTML]="cards?.content"></p> 
-      </md-card-content>
+      </mat-card-content>
 
-      <md-card-actions>
-        <a md-button
+      <mat-card-actions>
+        <a mat-button
           *ngFor="let button of cards?.buttons" 
           [href]="button?.link"
           target="_blank" 
           [style.color]="button?.color">
           {{ button?.text }}</a>
-    </md-card-actions>
-    </md-card>
+    </mat-card-actions>
+    </mat-card>
   </div>
 </body>
 
 <body *isMobile style="margin-bottom: 64px">
   <!-- Introduction card -->
-    <md-card class="landing-card-mobile">
-      <md-card-header>
-        <div md-card-avatar class="avatar-image"></div>
-        <md-card-title>{{ cards?.title }}</md-card-title>
-        <md-card-subtitle>{{ cards?.subtitle }}</md-card-subtitle>
-      </md-card-header>
+    <mat-card class="landing-card-mobile">
+      <mat-card-header>
+        <div mat-card-avatar class="avatar-image"></div>
+        <mat-card-title>{{ cards?.title }}</mat-card-title>
+        <mat-card-subtitle>{{ cards?.subtitle }}</mat-card-subtitle>
+      </mat-card-header>
 
-      <img md-card-image 
+      <img mat-card-image 
         [src]="cards?.imgSrc" 
         [alt]="cards?.imgAlt"
-        [mdTooltip]="cards?.tooltip" 
-        mdTooltipPosition="left" 
-        mdTooltipShowDelay="1000">
+        [matTooltip]="cards?.tooltip" 
+        matTooltipPosition="left" 
+        matTooltipShowDelay="1000">
 
-      <md-card-content>
+      <mat-card-content>
         <p [innerHTML]="cards?.content"></p>
-      </md-card-content>
+      </mat-card-content>
 
-      <md-card-actions>
-        <a md-button
+      <mat-card-actions>
+        <a mat-button
           *ngFor="let button of cards?.buttons" 
           [href]="button?.link"
           target="_blank" 
           [style.color]="button?.color">
           {{ button?.text }}</a>
-      </md-card-actions>
-    </md-card>
+      </mat-card-actions>
+    </mat-card>
 </body>

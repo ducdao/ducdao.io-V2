@@ -1,5 +1,5 @@
-<nav md-tab-nav-bar disableRipple="false">
-  <a md-tab-link 
+<nav mat-tab-nav-bar disableRipple="false">
+  <a mat-tab-link 
     *ngFor="let tab of navLinks"
     [routerLink]="tab.link"
     routerLinkActive #rla="routerLinkActive"
@@ -14,34 +14,34 @@
 
   <!-- Vertical FAB -->
   <div class="fixed-action-btn vertical fab">
-    <button md-fab color="primary">
+    <button mat-fab color="primary">
       <i class="material-icons">face</i>
     </button>
     <ul>
       <li><a class="btn-floating github-color"
-        mdTooltip="GitHub" 
-        mdTooltipPosition="before"
+        matTooltip="GitHub" 
+        matTooltipPosition="before"
         target="_blank" 
         href="https://github.com/ducdao">
         <i class="fa fa-github" style="font-size:24px;"></i></a>
       </li>
       <li><a class="btn-floating linkedin-color"
-        mdTooltip="LinkedIn" 
-        mdTooltipPosition="before" 
+        matTooltip="LinkedIn" 
+        matTooltipPosition="before" 
         target="_blank"
         href="https://www.linkedin.com/in/duclongdao/">
         <i class="fa fa-linkedin-square" style="font-size:24px"></i></a>
       </li>
       <li><a class="btn-floating gmail-color" 
-        mdTooltip="Gmail" 
-        mdTooltipPosition="before"
+        matTooltip="Gmail" 
+        matTooltipPosition="before"
         target="_blank" 
         href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=dldao@calpoly.edu&su=Hello Duc!&tf=1">
         <i class="material-icons">mail</i></a>
       </li>
       <li><a class="btn-floating cv-color" 
-        mdTooltip="Curriculum Vitae" 
-        mdTooltipPosition="before" 
+        matTooltip="Curriculum Vitae" 
+        matTooltipPosition="before" 
         target="_blank"
         href="https://drive.google.com/file/d/0B8nCs6tSnt3YdkhJMjBkV0NXdGc/view?usp=sharing">
         <i class="material-icons">description</i></a>
