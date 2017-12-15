@@ -4,7 +4,6 @@
 html {
 	height: stretch;
 	width: stretch;
-	display: table;
 
 	background-image: url("Elegance.jpg");
 	background-attachment: fixed;          /* Need this for background to show up on Firefox */
@@ -19,7 +18,7 @@ html {
 body {
 	overflow-x: hidden;
 	overflow-y: auto;
-	height: stretch;
+	height: 100%;
 }
 
 .hearthing-text {
