@@ -15,7 +15,7 @@ export class ProjectsComponent implements OnInit {
 
    ngOnInit() {
       // Get card information from Firebase
-      this.getCardsService.getCards('projects').subscribe(cards => {
+      this.getCardsService.getCards('projects').valueChanges().subscribe(cards => {
          console.log(cards);
          this.FBCardData = cards;
          

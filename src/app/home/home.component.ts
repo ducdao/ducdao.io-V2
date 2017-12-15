@@ -9,11 +9,11 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
   cards:any;
 
-  constructor(private getCardsService: GetCardsService) { }
+  constructor(private cardsService: GetCardsService) { }
 
   ngOnInit() {
     // Get card information from Firebase
-    this.getCardsService.getCards('home').subscribe(cards => {
+    this.cardsService.getCards('home').valueChanges().subscribe(cards => {
       this.cards = cards[0];
     })
   }
