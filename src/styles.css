@@ -4,7 +4,10 @@
 html {
 	height: stretch;
 	width: stretch;
+	display: table;
+
 	background-image: url("Elegance.jpg");
+	background-attachment: fixed;          /* Need this for background to show up on Firefox */
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
