@@ -11,7 +11,7 @@ src/environments/firebase.config.ts
 # dependencies
 /node_modules
 /backend/node_modules
-!/node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css
+!*/node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css
 
 # IDEs and editors
 /.idea
