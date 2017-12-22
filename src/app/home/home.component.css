@@ -3,27 +3,39 @@ body {
   overflow-y: auto; 
 }
 
-.splash-text {
+.column-left { 
+  float: left;
+  width: 50%; 
+  height: 100%;
+
+  font-size: 12vw;
   text-align: center;
+}
+
+.column-right { 
+  float: right; 
+  width: 50%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+/* Left side of home page */
+.splash-text {
   font-size: inherit;
   font-weight: 100;
   color: white;
-  padding-left: 20%;
+  margin-left: 20%;
 }
 
 .splash-text-sub {
-  text-align: center;
   font-size: 2vw;
   font-weight: 100;
   color: white;
-  padding-left: 10vw;
-  margin-top: -16vw;
+  margin-left: 20%;
+  margin-top: -16vw; /* Needed to have main text next to sub */
 }
 
-.spacer {
-  flex: 1 1 auto;
-}
-
+/* Right side of home page */
 .landing-card-desktop {
   width: 26vw;
   margin: 0;
@@ -42,19 +54,8 @@ body {
   width: stretch;
 }
 
-.column-left { 
-  float: left; 
-  width: 50%; 
-  height: stretch;
-  font-size: 100px;
-  font-size: 12vw;
-}
-
-.column-right { 
-  float: right; 
-  width: 50%;
-  height: stretch;
-  vertical-align: middle;
+.spacer {
+  flex: 1 1 auto;
 }
 
 a {

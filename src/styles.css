@@ -51,7 +51,7 @@ body {
 	background-color: #FF5722;
 }
 
-/* Scrollbar style */
+/* Scrollbar style for Chrome/Safari */
 body::-webkit-scrollbar-track {
 	background-color: rgba(0,0,0,0);
 }
