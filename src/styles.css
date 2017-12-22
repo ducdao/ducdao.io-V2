@@ -52,18 +52,15 @@ body {
 }
 
 /* Scrollbar style */
-body::-webkit-scrollbar-track
-{
+body::-webkit-scrollbar-track {
 	background-color: rgba(0,0,0,0);
 }
 
-body::-webkit-scrollbar
-{
+body::-webkit-scrollbar {
 	width: 2px;
 	background-color: rgba(0,0,0,0);
 }
 
-body::-webkit-scrollbar-thumb
-{
+body::-webkit-scrollbar-thumb {
 	background-color: rgba(255,255,255,.4);
 }
