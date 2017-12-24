@@ -1,4 +1,4 @@
- <title>Duc Dao - Home</title>
+<title>Duc Dao - Home</title>
 
 <body *isDesktop>
   <div class="column-left">
@@ -26,9 +26,9 @@
         <p [innerHTML]="cards?.content"></p> 
       </mat-card-content>
 
-      <mat-card-actions style="height:2.5vw">
-        <a mat-button
-          *ngFor="let button of cards?.buttons | slice: 1" 
+      <mat-card-actions align="end">
+        <a mat-button 
+          *ngFor="let button of cards?.buttons" 
           [href]="button?.link"
           target="_blank" 
           [style.color]="button?.color">
@@ -59,7 +59,7 @@
         <p [innerHTML]="cards?.content"></p>
       </mat-card-content>
 
-      <mat-card-actions>
+      <mat-card-actions align="end">
         <a mat-button
           *ngFor="let button of cards?.buttons" 
           [href]="button?.link"
