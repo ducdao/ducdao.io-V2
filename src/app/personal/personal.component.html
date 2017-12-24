@@ -26,7 +26,7 @@
   
         <mat-card-actions align="end">
           <a mat-button 
-            *ngFor="let button of card.buttons | slice: 1" 
+            *ngFor="let button of card.buttons" 
             [href]="button?.link"
             target="_blank" 
             [style.color]="button?.color">
@@ -61,7 +61,7 @@
 
     <mat-card-actions align="end">
       <a mat-button 
-        *ngFor="let button of card.buttons | slice: 1" 
+        *ngFor="let button of card.buttons" 
         [href]="button?.link"
         target="_blank"
         [style.color]="button?.color">
