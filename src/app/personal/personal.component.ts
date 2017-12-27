@@ -1,4 +1,4 @@
-import { GetCardsService } from './../get-cards.service';
+import { CardsService } from './../cards.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -8,36 +8,28 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PersonalComponent implements OnInit {
    FBCardData: any;
-   cards: any[] = []
+   allCards: any[] = []
+   leftCards: any[] = []
+   rightCards: any[] = []
 
-   constructor(private getCardsService: GetCardsService) { }
+   constructor(private CardsService: CardsService) { }
 
    ngOnInit() {
       // Get card information from Firebase
-      this.getCardsService.getCards('personal').valueChanges().subscribe(cards => {
+      this.CardsService.getCards('personal').valueChanges().subscribe(cards => {
          console.log(cards);
          this.FBCardData = cards;
         
          // Create array of cards from Firebase data
          for (let card in this.FBCardData) {
-           this.cards.push(this.FBCardData[card]);
+           this.allCards.push(this.FBCardData[card]);
          }    
         
-         this.sortCards(); 
+         this.CardsService.sortCards(this.allCards);
+         this.CardsService.splitCards(this.allCards, this.leftCards, this.rightCards) 
 
          console.log("SORTED BY ORDER: ");
-         console.log(this.cards);
+         console.log(this.allCards);
       })
    }
-
-  // Sort cards by order attribute in Firebase
-  sortCards() {
-    this.cards.sort(function(a, b) {
-      if (a.order > b.order) 
-        return -1;
-      
-      if (a.order < b.order)
-        return 1;
-    });
-  }
 }

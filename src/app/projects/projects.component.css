@@ -11,25 +11,27 @@ body {
   padding-right: 20%; 
 }
 
-.card-desktop {
-  margin: 16px;
-  width: stretch;
-}
-
 .left-column { 
   float: left;
-  width: 50%; 
-  height: 135vw;
+  width: 50%;
+  height: 100%;
+  padding-right: 8px;
 }
 
 .right-column { 
   float: right; 
   width: 50%;
-  height: 85vw;
+  height: 100%;
+  padding-left: 9px;
 }
 
-mat-grid-list {
-  height: inherit;
+.grid-item {
+  width: 100%;
+}
+
+mat-card { 
+  margin: 16px;
+  width: stretch;
 }
 
 mat-card-actions {

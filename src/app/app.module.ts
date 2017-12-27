@@ -14,7 +14,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { CVComponent } from './cv/cv.component';
 import { HomeComponent } from './home/home.component';
 
-import { GetCardsService } from './get-cards.service';
+import { CardsService } from './cards.service';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule,
@@ -60,7 +60,7 @@ import { MatButtonModule,
     MatTooltipModule,
     MatListModule
   ],
-  providers: [GetCardsService],
+  providers: [CardsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

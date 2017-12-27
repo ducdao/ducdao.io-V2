@@ -1,6 +1,6 @@
 body {
   height: stretch;
-  width: cover;
+  width: 100%;
   overflow-x: hidden;
   overflow-y: auto;
   padding-bottom: 64px;
@@ -11,9 +11,27 @@ body {
   padding-right: 20%; 
 }
 
-.card-desktop {
-  width: stretch;
+.left-column { 
+  float: left;
+  width: 50%;
+  height: 100%;
+  padding-right: 8px;
+}
+
+.right-column { 
+  float: right; 
+  width: 50%;
+  height: 100%;
+  padding-left: 9px;
+}
+
+.grid-item {
+  width: 100%;
+}
+
+mat-card { 
   margin: 16px;
+  width: stretch;
 }
 
 mat-card-actions {

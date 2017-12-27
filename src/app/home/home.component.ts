@@ -1,4 +1,4 @@
-import { GetCardsService } from './../get-cards.service';
+import { CardsService } from './../cards.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
   cards: any;
 
-  constructor(private cardsService: GetCardsService) { }
+  constructor(private cardsService: CardsService) { }
 
   ngOnInit() {
     // Get card information from Firebase
