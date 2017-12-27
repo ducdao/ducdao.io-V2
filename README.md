@@ -1,6 +1,6 @@
 # ducdao.io
 Duc Dao's personal website utilizing:
-* [Angular 4](https://angular.io/)
+* [Angular](https://angular.io/)
 * [Firebase](http://firebase.google.com/) 
 * [Angular Material](https://material.angular.io/)
 * [MaterializeCSS](http://materializecss.com/) 
@@ -12,8 +12,9 @@ version 1.2.0.
 ### [Angular Material](https://material.angular.io/)
   * [Button](https://material.angular.io/components/button/overview)
   * [Card](https://material.angular.io/components/card/overview)
-  * [Grid List](https://material.angular.io/components/grid-list/overview)
   * [Tab Nav Bar](https://material.angular.io/components/tabs/overview)
+### [Mansory](https://masonry.desandro.com/index.html)
+  * [Responsive Layouts](https://masonry.desandro.com/layout.html)
 ### [MaterializeCSS](https://materializecss.com/)
   * Vertical Floating Action [Button](http://materializecss.com/buttons.html) (FAB)
 
