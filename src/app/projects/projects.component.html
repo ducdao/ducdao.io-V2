@@ -1,42 +1,83 @@
 <title>Duc Dao - Projects</title>
 
 <body *isDesktop class="margin-desktop">
-  <mat-grid-list cols="2" rowHeight="625px" gutterSize="16px">
-    <mat-grid-tile 
-      *ngFor="let card of cards" 
-      [colspan]="1"
-      [rowspan]="1">
-      <mat-card class="card-desktop">
-        <mat-card-header>
-          <div mat-card-avatar class="avatar-image"></div>
-          <mat-card-title>{{ card.title }}</mat-card-title>
-          <mat-card-subtitle>{{ card.subtitle }}</mat-card-subtitle>
-        </mat-card-header>
+  <div class="left-column">
+    <mat-grid-list cols="1" rowHeight="fit" gutterSize="16px"> 
+      <mat-grid-tile 
+        *ngFor="let card of leftCards" 
+        [colspan]="1"
+        [rowspan]="1">
+        <mat-card class="card-desktop">
+          <mat-card-header>
+            <div mat-card-avatar class="avatar-image"></div>
+            <mat-card-title>{{ card.title }}</mat-card-title>
+            <mat-card-subtitle>{{ card.subtitle }}</mat-card-subtitle>
+          </mat-card-header>
 
-        <img mat-card-image 
-          style="max-width:cover" 
-          [src]="card.imgSrc" 
-          [alt]="card.imgAlt" 
-          [matTooltip]="card.tooltip" 
-          matTooltipPosition="above"
-          matTooltipShowDelay="1000">
+          <img mat-card-image 
+            style="max-width:cover" 
+            [src]="card.imgSrc" 
+            [alt]="card.imgAlt" 
+            [matTooltip]="card.tooltip" 
+            matTooltipPosition="above"
+            matTooltipShowDelay="1000">
 
-        <mat-card-content>
-          <p [innerHTML]="card.content"></p>
-        </mat-card-content>
+          <mat-card-content>
+            <p [innerHTML]="card.content"></p>
+          </mat-card-content>
 
-        <mat-card-actions align="end">
-          <a mat-button 
-            *ngFor="let button of card.buttons" 
-            [href]="button?.link" 
-            target="_blank"
-            [style.color]="button?.color">
-            {{ button?.text }}
-          </a>
-        </mat-card-actions>
-      </mat-card>
-    </mat-grid-tile>
-  </mat-grid-list>
+          <mat-card-actions>
+            <a mat-button 
+              *ngFor="let button of card.buttons" 
+              [href]="button?.link" 
+              target="_blank"
+              [style.color]="button?.color">
+              {{ button?.text }}
+            </a>
+          </mat-card-actions>
+        </mat-card>
+      </mat-grid-tile>
+    </mat-grid-list>
+  </div>
+
+  <div class="right-column">
+    <mat-grid-list cols="1" rowHeight="fit" gutterSize="16px"> 
+      <mat-grid-tile 
+        *ngFor="let card of rightCards" 
+        [colspan]="1"
+        [rowspan]="1">
+        <mat-card class="card-desktop">
+          <mat-card-header>
+            <div mat-card-avatar class="avatar-image"></div>
+            <mat-card-title>{{ card.title }}</mat-card-title>
+            <mat-card-subtitle>{{ card.subtitle }}</mat-card-subtitle>
+          </mat-card-header>
+
+          <img mat-card-image 
+            style="max-width:cover" 
+            [src]="card.imgSrc" 
+            [alt]="card.imgAlt" 
+            [matTooltip]="card.tooltip" 
+            matTooltipPosition="above"
+            matTooltipShowDelay="1000">
+
+          <mat-card-content>
+            <p [innerHTML]="card.content"></p>
+          </mat-card-content>
+
+          <mat-card-actions align="start">
+            <a mat-button 
+              *ngFor="let button of card.buttons" 
+              [href]="button?.link" 
+              target="_blank"
+              [style.color]="button?.color">
+              {{ button?.text }}
+            </a>
+          </mat-card-actions>
+        </mat-card>
+      </mat-grid-tile>
+    </mat-grid-list>
+  </div>
 </body>
 
 <body *isMobile>
@@ -60,7 +101,7 @@
       <p [innerHTML]="card.content"></p>
     </mat-card-content>
 
-    <mat-card-actions align="end">
+    <mat-card-actions>
       <a mat-button 
         *ngFor="let button of card.buttons" 
         [href]="button?.link" 

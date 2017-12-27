@@ -24,7 +24,7 @@
           <p [innerHTML]="card.content"></p>
         </mat-card-content>
   
-        <mat-card-actions align="end">
+        <mat-card-actions>
           <a mat-button 
             *ngFor="let button of card.buttons" 
             [href]="button?.link"
@@ -59,7 +59,7 @@
       <p [innerHTML]="card.content"></p>
     </mat-card-content>
 
-    <mat-card-actions align="end">
+    <mat-card-actions>
       <a mat-button 
         *ngFor="let button of card.buttons" 
         [href]="button?.link"

@@ -58,10 +58,6 @@ body {
   flex: 1 1 auto;
 }
 
-a {
-  float: left;
-}
-
-md-card-actions {
+mat-card-actions {
   display: inline-block;
 }

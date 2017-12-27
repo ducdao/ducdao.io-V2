@@ -16,10 +16,6 @@ body {
   margin: 16px;
 }
 
-a {
-  float: left;
-}
-
-md-card-actions {
+mat-card-actions {
   display: inline-block;
 }

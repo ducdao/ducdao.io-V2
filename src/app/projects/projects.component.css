@@ -16,10 +16,22 @@ body {
   width: stretch;
 }
 
-a {
+.left-column { 
   float: left;
+  width: 50%; 
+  height: 135vw;
 }
 
-md-card-actions {
+.right-column { 
+  float: right; 
+  width: 50%;
+  height: 85vw;
+}
+
+mat-grid-list {
+  height: inherit;
+}
+
+mat-card-actions {
   display: inline-block;
 }

@@ -9,7 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectsComponent implements OnInit {
    FBCardData: any;
-   cards: any[] = [];
+   allCards: any[] = [];
+
+   // Cards on the left/right side, determined by order attribute
+   leftCards: any[] = [];
+   rightCards: any[] = [];
 
    constructor(private getCardsService: GetCardsService) { }
 
@@ -21,24 +25,39 @@ export class ProjectsComponent implements OnInit {
          
          // Create array of cards
          for (let card in this.FBCardData) {
-            this.cards.push(this.FBCardData[card]);
+            this.allCards.push(this.FBCardData[card]);
          }    
          
-         this.sortCards(); 
+         this.sortCards();
+         this.splitCards(); 
 
          console.log("SORTED BY ORDER: ");
-         console.log(this.cards);
+         console.log(this.allCards);
       })
    }
 
    // Sort cards by order attribute in Firebase
    sortCards() {
-      this.cards.sort(function(a, b) {
-         if (a.order > b.order)
+      this.allCards.sort(function(cardA, cardB) {
+         if (cardA.order > cardB.order)
             return -1;
          
-         if (a.order < b.order)
+         if (cardA.order < cardB.order)
             return 1;
       });
+   }
+
+   // Organize cards into two groups, leftCards and rightCards
+   splitCards() {
+      for (let card of this.allCards) {
+         // Even, is right card
+         if (card.order % 2 == 0) {
+            this.rightCards.push(card)
+         }
+         // Odd, is left card
+         else {
+            this.leftCards.push(card)
+         }
+      }
    }
 }
