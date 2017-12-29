@@ -1,0 +1,313 @@
+{
+  "home" : {
+    "landingCard" : {
+      "buttons" : [ {
+        "color" : "green",
+        "link" : "https://www.calpoly.edu/",
+        "text" : "CAL POLY"
+      }, {
+        "color" : "orange",
+        "link" : "https://hearthstone.gamepedia.com/Thrall",
+        "text" : "GREETINGS, FRIEND!"
+      } ],
+      "content" : "<p><i>Greetings, friend!</i></p> <p>My name is Duc Dao (\"Duke\") and I am an aspiring software engineer who attended California Polytechnic State University, San Luis Obispo majoring in Computer Science.</p> <p>My primary field of interest is mobile development but I have experience in web development, game development, and database management.</p>",
+      "imgAlt" : "Duc Dao",
+      "imgSrc" : "https://firebasestorage.googleapis.com/v0/b/ducdaoio-cb867.appspot.com/o/ducdao.png?alt=media&token=38aa6b93-e238-4f33-a3a4-21c874bcf330",
+      "subtitle" : "Prospective Software Engineer",
+      "title" : "Duc Dao",
+      "tooltip" : "Dunken Dounts, Cleveland Hopkins International Airport 2014"
+    }
+  },
+  "personal" : {
+    "cihs" : {
+      "buttons" : [ {
+        "color" : "#3B5998",
+        "link" : "https://www.facebook.com/cihsraiderband/",
+        "text" : "RAIDER BAND"
+      }, {
+        "color" : "#2196F3",
+        "link" : "https://www.channelislandshigh.us/",
+        "text" : "CIHS"
+      }, {
+        "color" : "#FFEB3B",
+        "link" : "https://en.wikipedia.org/wiki/Channel_Islands_High_School",
+        "text" : "WIKIPEDIA"
+      } ],
+      "content" : "<p>I attended Channel Islands High School from 2008 to 2012. No, we did not take a ferry to go to school everyday.</p> <p>I was involved with band for all four years where I served as the drum major of the Raider Band from 2010 to 2012. As drum major, I led the band in rehearsals, football games, and parades such as the Ventura County Fair Parade, Oxnard Christmas Parade.</p>",
+      "imgAlt" : "CIHS",
+      "imgSrc" : "https://firebasestorage.googleapis.com/v0/b/ducdaoio-cb867.appspot.com/o/cihsbandvcparade2011.jpg?alt=media&token=5fc7a6c0-86e9-462f-acba-622adfa1769f",
+      "order" : 5,
+      "subtitle" : "Oxnard, CA",
+      "title" : "Channel Islands High School",
+      "tooltip" : "Leading the band in the 2011 Ventura County Fair Parade."
+    },
+    "cihsalumniband" : {
+      "buttons" : [ {
+        "color" : "#0D47A1",
+        "link" : "https://www.facebook.com/groups/369172406471904/",
+        "text" : "ALUMNI BAND"
+      } ],
+      "content" : "<p>I'm the coordinator for the Channel Islands High School Alumni Band. After high school, there's not a lot of opportunities to be part of a pep/marching band for most people in Oxnard. I wanted to give alumni that opportunity to play again, like the good o' days.",
+      "imgAlt" : "CIHS Alumni Band",
+      "imgSrc" : "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/22853187_1658693684151566_7448188320168945993_n.jpg?oh=446c8450593285ff1b018bce7a36bbb1&oe=5A6F84AE",
+      "order" : 6,
+      "subtitle" : "Pep Band",
+      "title" : "CIHS Alumni Band",
+      "tooltip" : "Shout out to Frank for helping me pay for the shirts!"
+    },
+    "da" : {
+      "buttons" : [ {
+        "color" : "#3B5998",
+        "link" : "https://www.facebook.com/DisgruntledAvians/",
+        "text" : "DISGRUNTLED AVIANS"
+      }, {
+        "color" : "#F44336",
+        "link" : "https://en.wikipedia.org/wiki/Angry_Birds",
+        "text" : "ANGRY BIRDS"
+      } ],
+      "content" : "<p>I'm the trumpet player for the instrumental cover band,  Disgruntled Avians! Formed in 2011 by Julian Roque, Disgruntled  Avians aimed to bring his music arrangements to life. The Disgruntled  Avians name is a play on the video game franchise, Angry Birds.  Its theme song was the first piece Julian arranged.</p> <p>DA isn't active right now but a new project will be announced soon™.</p>",
+      "imgAlt" : "Disgruntled Avians",
+      "imgSrc" : "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/281674_217938141585821_1152707_n.jpg?oh=b2e468daad8a26437705d7e4443e8cc9&oe=5A71BEFA",
+      "order" : 4,
+      "subtitle" : "Instrumental Cover Band",
+      "title" : "Disgruntled Avians",
+      "tooltip" : "Thank you Julian, for all that you've done for DA!"
+    },
+    "heroes" : {
+      "buttons" : [ {
+        "color" : "#9C27B0",
+        "link" : "https://us.battle.net/heroes/en/",
+        "text" : "HEROES"
+      } ],
+      "content" : "<p> Heroes of the Storm is a multiplayer online battle arena video game  developed and published by Blizzard Entertainment. In Heroes of the  Storm, some of my favorite heroes to play are Abathur, Li Li,  Kael'thas, and Lunara. </p>  <p> In 2017, I was part of the Heroes of the Dorm team for Cal Poly, where  I mainly played wave clear (because I think that's really fun for some  reason). </p>",
+      "imgAlt" : "Heroes of the Storm",
+      "imgSrc" : "http://media.blizzard.com/heroes/images/icons/heroes-facebook-preview-bcon.jpg",
+      "order" : 2,
+      "subtitle" : "PC Gaming",
+      "title" : "Heroes of the Storm",
+      "tooltip" : "No Li Li. :("
+    },
+    "mustangband" : {
+      "buttons" : [ {
+        "color" : "green",
+        "link" : "https://mband.calpoly.edu/",
+        "text" : "MUSTANG BAND"
+      } ],
+      "content" : "<p>I was part of the Cal Poly Mustang Band from Fall 2012 to Spring 2016. When I was looking for universities to apply to, having a marching band was part of my criteria. I always wanted to be part of an 200+ ensemble, do field shows (since my high school never did them), and continue doing what I loved to do: play my trumpet.</p>",
+      "imgAlt" : "Mustang Band",
+      "imgSrc" : "https://firebasestorage.googleapis.com/v0/b/ducdaoio-cb867.appspot.com/o/mustangband.jpg?alt=media&token=75fd559b-a183-43e7-a61e-2f90cb2ee020",
+      "order" : 7,
+      "subtitle" : "Mustang Band",
+      "title" : "Pride of the Pacific",
+      "tooltip" : "Pre-game performance for Cal Poly vs Portland State, 10/20/2012"
+    },
+    "oxnard" : {
+      "buttons" : [ {
+        "color" : "#F44336",
+        "link" : "https://en.wikipedia.org/wiki/Oxnard,_California",
+        "text" : "OXNARD"
+      }, {
+        "color" : "#4CAF50",
+        "link" : "https://en.wikipedia.org/wiki/Oxnard_Plain",
+        "text" : "PLAIN"
+      } ],
+      "content" : "I grew up in Oxnard, located about an hour west of Los Angeles and an hour southeast of Santa Barbara. Oxnard is known for being California's largest strawberry producer because of the Oxnard Plain.",
+      "imgAlt" : "Oxnard Plain",
+      "imgSrc" : "http://www.soarvc.org/wp-content/uploads/2014/09/Oxnard-image.jpg",
+      "order" : 8,
+      "subtitle" : "Hometown",
+      "title" : "Oxnard, California",
+      "tooltip" : "Strawberry fields in Oxnard Plain."
+    },
+    "pc" : {
+      "buttons" : [ {
+        "color" : "white",
+        "link" : "https://pcpartpicker.com/list/ZvBHRG",
+        "text" : "SPECS"
+      } ],
+      "content" : "<p>Built my own PC during the summer of 2016. Had a lot of fun putting it together so I ended up helping some of my other friends out with their builds.</p>",
+      "imgAlt" : "PC",
+      "imgSrc" : "https://firebasestorage.googleapis.com/v0/b/ducdaoio-cb867.appspot.com/o/gpu.png?alt=media&token=42a283f4-6266-444e-9a4c-b6c83f4c5bc5",
+      "order" : 3,
+      "subtitle" : "PC Building",
+      "title" : "Computers",
+      "tooltip" : "I don't actually have the card that's shown here."
+    },
+    "sc" : {
+      "buttons" : [ {
+        "color" : "deepskyblue",
+        "link" : "http://us.battle.net/sc2/en/",
+        "text" : "STARCRAFT"
+      } ],
+      "content" : "StarCraft II is a real-time strategy game developed and published by Blizzard  Entertainment. I'm a really rusty Diamond Terran. You can only  say \"daed gmae\" if you play StarCraft II. >_>",
+      "imgAlt" : "StarCraft II",
+      "imgSrc" : "https://bnetproduct-a.akamaihd.net//31/a0031372f617b683f02fe0ae163419ca-sc2-battlechest-product.jpg",
+      "order" : 1,
+      "subtitle" : "PC Gaming",
+      "title" : "StarCraft II",
+      "tooltip" : "This game is hard. :("
+    },
+    "vietnamese" : {
+      "buttons" : [ {
+        "color" : "#FFEB3B",
+        "link" : "https://en.wikipedia.org/wiki/Vietnam_War",
+        "text" : "VIETNAM WAR"
+      } ],
+      "content" : "I'm a first generation Vietnamese American born in 1994. Both of my parents came over to California from Vietnam when they were young adults to escape a country ravaged by war and pursue the American Dream.",
+      "imgAlt" : "Pho!",
+      "imgSrc" : "http://www.simplyrecipes.com/wp-content/uploads/2017/02/2017-02-07-ChickenPho-14.jpg",
+      "order" : 9,
+      "subtitle" : "First Generation",
+      "title" : "Vietnamese American",
+      "tooltip" : "Pho!"
+    }
+  },
+  "projects" : {
+    "BPMDetector" : {
+      "buttons" : [ {
+        "color" : "#9C27B0",
+        "link" : "https://github.com/ducdao/BPM-Detector",
+        "text" : "SOURCE"
+      }, {
+        "color" : "#FFFFFF",
+        "link" : "https://en.wikipedia.org/wiki/Conducting",
+        "text" : "CONDUCTING"
+      }, {
+        "color" : "deepskyblue",
+        "link" : "https://github.com/ducdao/BPM-Detector/blob/master/Reports/Final%20Report/Final%20Report.pdf",
+        "text" : "REPORT"
+      } ],
+      "content" : "<p>The BPM Detector is an Android application that detects the tempo or beats-per-minute (BPM) for a band conductor's conducting. Generally, the conductor moves their arms in a predictable pattern in order to maintain the band's synchronization, acting similarly to a metronome. The purpose of this application is to provide a tool for concert and marching band conductors to detect their precise tempo while conducting. This will help them determine how well they are coordinating the band and whether they need to adjust their tempo.<p> <p>BPM Detector was originally created for Duc Dao's senior project at Cal Poly.</p>",
+      "imgAlt" : "BPM Detector image",
+      "imgSrc" : "https://firebasestorage.googleapis.com/v0/b/ducdaoio-cb867.appspot.com/o/BPMDetectorBanner.jpg?alt=media&token=0eba1bc6-15a2-4b3e-9d11-af5cd59b0b55",
+      "order" : 7,
+      "subtitle" : "Android Wear Beats-Per-Minute Detection",
+      "title" : "BPM Detector",
+      "tooltip" : "My first Android application!"
+    },
+    "Dino" : {
+      "buttons" : [ {
+        "color" : "#9C27B0",
+        "link" : "https://github.com/ducdao/Dino",
+        "text" : "SOURCE"
+      }, {
+        "color" : "#E53935",
+        "link" : "https://en.wikipedia.org/wiki/Kung_Fury",
+        "text" : "KUNG FURY"
+      }, {
+        "color" : "green",
+        "link" : "http://catalog.calpoly.edu/search/?P=CSC%20371",
+        "text" : "CSC 371"
+      } ],
+      "content" : "<p>Created by Alex Bartlett, Duc Dao, Thomas Franklin, and Khammadao Lee.</p> <p>Dino is a top down shooter made in Unreal Engine 4 for Cal Poly's Game Design class, CSC 371. You play as Laser Raptor, one of the few dinosaurs who have survived a meteor strike, granting you the ability to shoot laser beams through your eyes. The goal of the game is to survive as long as possible.</p> <p>Dino was inspired by Kung Fury.</p>",
+      "imgAlt" : "Dino",
+      "imgSrc" : "https://firebasestorage.googleapis.com/v0/b/ducdaoio-cb867.appspot.com/o/dino.jpg?alt=media&token=09a73f41-7bfa-4a8a-af0d-527f7e6d30d7",
+      "order" : 2,
+      "subtitle" : "Top-Down Shooter",
+      "title" : "Dino",
+      "tooltip" : "Shoutout to Thomas for being a team player!"
+    },
+    "ELI5--" : {
+      "buttons" : [ {
+        "color" : "#9C27B0",
+        "link" : "https://github.com/ducdao/ELI5--",
+        "text" : "SOURCE"
+      }, {
+        "color" : "#F44336",
+        "link" : "https://www.reddit.com/r/explainlikeimfive/",
+        "text" : "ELI5"
+      }, {
+        "color" : "green",
+        "link" : "http://catalog.calpoly.edu/search/?P=CSC%20436",
+        "text" : "CSC 436"
+      } ],
+      "content" : "ELI5-- is an iOS application that parses threads from the explainlikeimfive subreddit, simplifies the top explanation, and provides images to supplement it. ELI5-- is my final project for Cal Poly's Mobile Application Development, CSC 436.",
+      "imgAlt" : "ELI5--",
+      "imgSrc" : "https://firebasestorage.googleapis.com/v0/b/ducdaoio-cb867.appspot.com/o/reddit.jpg?alt=media&token=5e0107cc-eb39-4230-b07c-796952f78432",
+      "order" : 3,
+      "subtitle" : "Subreddit Visualizer",
+      "title" : "ELI5--",
+      "tooltip" : "Image Source: http://az616578.vo.msecnd.net/files/2016/07/01/636029417935340699-58088307_reddit.jpg"
+    },
+    "Firefly" : {
+      "buttons" : [ {
+        "color" : "#9C27B0",
+        "link" : "https://github.com/ducdao/firefly",
+        "text" : "SOURCE"
+      }, {
+        "color" : "#4CAF50",
+        "link" : "https://startupweekend.org/",
+        "text" : "STARTUP WEEKEND"
+      } ],
+      "content" : "<p>Firefly is a crowd supplied light control system to increase audience engagement. Firefly was created by Duc Dao, Shannon Durbin, Adam Gockel, Matt Hanna, and Christian Johansen at Startup Weekend San Luis Obispo 2017. Out of 14 teams, Firefly ended up getting 3rd place in the competition!</p>",
+      "imgAlt" : "Firefly logo",
+      "imgSrc" : "https://firebasestorage.googleapis.com/v0/b/ducdaoio-cb867.appspot.com/o/firefly(700x400).png?alt=media&token=22f841ae-5c5a-4ef7-a2ca-ccd5b1ea8969",
+      "order" : 5,
+      "subtitle" : "Crowd Supplied Lighting System",
+      "title" : "Firefly",
+      "tooltip" : "Shout out to Adam, Matt, and Shannon for the business development, Taylor for developing the design, and Christian for providing the back end for the app!"
+    },
+    "HelpingHand" : {
+      "buttons" : [ {
+        "color" : "#9C27B0",
+        "link" : "http://volunteertest.weebly.com/",
+        "text" : "HELPING HAND"
+      }, {
+        "color" : "#F06292",
+        "link" : "https://lahacks.com/",
+        "text" : "LA HACKS"
+      } ],
+      "content" : "<p>Helping Hand is a platform built to connect two types of users: organizations providing volunteering opportunities and users looking for volunteering opportunities.</p> <p>Once a volunteering opportunity is complete, the organization will verify the completion of the opportunity and it will be recorded for the user, contributing to their achievements. The website provides a feature for the user to generate useful documents such us Volunteer History and Volunteer Data that can serve as a professional reference.</p> <p>Helping Hand was built at LA Hacks 2017.</p>",
+      "imgAlt" : "Helping Hand",
+      "imgSrc" : "https://firebasestorage.googleapis.com/v0/b/ducdaoio-cb867.appspot.com/o/helpinghand.png?alt=media&token=63733801-bcc6-4c26-8c10-88248b45a967",
+      "order" : 1,
+      "subtitle" : "Volunteer Platform",
+      "title" : "Helping Hand",
+      "tooltip" : "Image Source: http://s3.amazonaws.com/churchplantmedia-cms/currey_creek_church_boerne_tx/volunteer.png"
+    },
+    "Lexure" : {
+      "buttons" : [ {
+        "color" : "#9C27B0",
+        "link" : "https://github.com/ducdao/Lexure",
+        "text" : "SOURCE"
+      }, {
+        "color" : "#881C1C",
+        "link" : "https://cmusphinx.github.io/",
+        "text" : "CMUSPHINX"
+      }, {
+        "color" : "#FFFFFF",
+        "link" : "http://mallet.cs.umass.edu/",
+        "text" : "MALLET"
+      } ],
+      "content" : "<p>Lexure is an application that transcripts audio recordings of lectures, produces a searchable text file, and topics covered to facilitate studying.</p> <p>Lexure is a project for Cal Poly's Artifical Intelligence class, CSC 480, by Dave Arndt, Duc Dao, Nicholas Ilog, Jin Young Jeong, and Tommy White.</p>",
+      "imgAlt" : "Lexure image",
+      "imgSrc" : "https://firebasestorage.googleapis.com/v0/b/ducdaoio-cb867.appspot.com/o/LexureBanner.jpg?alt=media&token=7690a790-b65e-4519-8bc7-0f6b3a31a4fc",
+      "order" : 6,
+      "subtitle" : "Lecture Transcript and Topic Generation",
+      "title" : "Lexure",
+      "tooltip" : "Shoutout to Tommy for being the team's MVP!"
+    },
+    "ducdaoio" : {
+      "buttons" : [ {
+        "color" : "#9C27B0",
+        "link" : "https://github.com/ducdao/ducdao.io-V2",
+        "text" : "SOURCE"
+      }, {
+        "color" : "#2196F3",
+        "link" : "https://angular.io/",
+        "text" : "ANGULAR"
+      }, {
+        "color" : "#E91E63",
+        "link" : "https://material.angular.io/",
+        "text" : "ANGULAR MATERIAL"
+      } ],
+      "content" : "You're looking at it! ducdao.io is my personal website built with Angular and uses Angular Material to implement Google's Material Design language. Many thanks to my fellow California Cyber Training Complex 2017 interns for helping me learn Angular.",
+      "imgAlt" : "ducdao.io",
+      "imgSrc" : "https://firebasestorage.googleapis.com/v0/b/ducdaoio-cb867.appspot.com/o/ducdaoio.jpg?alt=media&token=1841c9ce-3346-4575-958a-a5d9b7aea1c1",
+      "order" : 4,
+      "subtitle" : "Personal Website",
+      "title" : "ducdao.io",
+      "tooltip" : "I always wanted to use Material Design!"
+    }
+  }
+}
