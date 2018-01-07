@@ -35,6 +35,10 @@ body {
 }
 
 /* FAB colors */
+.wallpaper-color, .wallpaper-color:hover {
+	background-color: #388E3C;
+}
+
 .github-color, .github-color:hover {
 	background-color: #913399;
 }
