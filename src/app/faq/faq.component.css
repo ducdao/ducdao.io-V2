@@ -1,0 +1,16 @@
+body {
+   height: stretch;
+   width: 100%;
+   overflow-x: hidden;
+   overflow-y: auto;
+   padding-bottom: 64px;
+ }
+ 
+ .margin-desktop {
+   padding-left: 30%;
+   padding-right: 30%; 
+ }
+
+ mat-card {
+   margin: 16px;
+ }
