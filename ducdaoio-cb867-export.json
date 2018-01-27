@@ -1,4 +1,65 @@
 {
+  "faq" : {
+    "filipino " : {
+      "buttons" : [ {
+        "color" : "#FFEB3B",
+        "link" : "http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=8FFF37DC3D181AFC526A523B50B264DB?doi=10.1.1.692.5124&rep=rep1&type=pdf",
+        "text" : "ABV STRUGGLES"
+      }, {
+        "color" : "white",
+        "link" : "http://censusviewer.com/city/CA/Oxnard",
+        "text" : "OXNARD CENSUS"
+      } ],
+      "content" : "<p>I'm an ABV (American Born Vietnamese).</p><p>A lot of people assume I'm Filipino because I look the part, especially in Oxnard, where the Asian population is majority Filipino.</p>",
+      "imgAlt" : "Filipino Answer",
+      "imgSrc" : "https://firebasestorage.googleapis.com/v0/b/ducdaoio-cb867.appspot.com/o/no.jpg?alt=media&token=59b6c98d-b444-42e5-a0ef-3fd5e0659434",
+      "order" : 1,
+      "subtitle" : "Ethnicity",
+      "title" : "Are you Filipino?",
+      "tooltip" : "Lawrence says I'm an honorary Filipino though. 👍"
+    },
+    "hair" : {
+      "buttons" : [ {
+        "color" : "#FFFFFF",
+        "link" : "https://www.webmd.com/beauty/features/abcs-premature-graying#1",
+        "text" : "GRAY HAIR"
+      } ],
+      "content" : "<p>Contrary to popular belief, gray hair is not caused by stress. That means my gray hair is probably purely because of my genetics. I bet it's from my mom's side.</p> ",
+      "imgAlt" : "Hair Answer",
+      "imgSrc" : "https://firebasestorage.googleapis.com/v0/b/ducdaoio-cb867.appspot.com/o/hair.jpg?alt=media&token=47ebc3ce-6876-4dad-99f4-bf255e9f287e",
+      "order" : 0,
+      "subtitle" : "Hair",
+      "title" : "What do you have so much gray hair?",
+      "tooltip" : "I usually just ignore my gray hair because I can't see it most of the time."
+    },
+    "name" : {
+      "buttons" : [ {
+        "color" : "#3F84F9",
+        "link" : "https://translate.google.com/#auto/vi/Duc",
+        "text" : "GOOGLE TRANSLATE"
+      }, {
+        "color" : "white",
+        "link" : "https://www.behindthename.com/name/d22u63c",
+        "text" : "DUC MEANING"
+      } ],
+      "content" : "<b>If you're Vietnamese or know the language:</b><p>You already know.</p><b>For everyone else:</b><p>Phonetically, it's \"Duh-kh.\" You can say it like \"duck\" and you'll be like 60% right. For the other 40%, listen to Google Translate on the Vietnamese side. She says it a little too fast but you'll get the gist of it.</p><p>Most non-Vietnamese people call me \"Duke\" though.",
+      "imgAlt" : "Name Answer",
+      "imgSrc" : "https://firebasestorage.googleapis.com/v0/b/ducdaoio-cb867.appspot.com/o/Duh-kh.jpg?alt=media&token=e4b60b8e-93e1-49ad-8c62-55a7fe2de983",
+      "order" : 3,
+      "subtitle" : "Name",
+      "title" : "How do you say your name?",
+      "tooltip" : "You can say it like \"duck.\""
+    },
+    "vietnamese" : {
+      "content" : "This is a byproduct of being an ABV. There are a lot of ABV's that have retained the mother tongue which is great. More power to you. But there are a lot of ABVs like myself that have unfortunately lost it. I use to fluently speak it before I went to preschool. As I learned English, I started to use it more and more and Vietnamese less and less. It snowballed from there.</p> <p>I want to change this though; I want to be able to fluently do all three one day.</p>",
+      "imgAlt" : "Vietnamese Answer",
+      "imgSrc" : "https://firebasestorage.googleapis.com/v0/b/ducdaoio-cb867.appspot.com/o/vietnamese.jpg?alt=media&token=6f8021d0-22d8-4f71-a4cc-2d8f50aa5ca4",
+      "order" : 2,
+      "subtitle" : "Language",
+      "title" : "Can you speak/understand/write in Vietnamese?",
+      "tooltip" : "Ya see what I did with the image?"
+    }
+  },
   "home" : {
     "landingCard" : {
       "buttons" : [ {
@@ -99,7 +160,7 @@
       "order" : 7,
       "subtitle" : "Mustang Band",
       "title" : "Pride of the Pacific",
-      "tooltip" : "Pre-game performance for Cal Poly vs Portland State, 10/20/2012"
+      "tooltip" : "Pre-game performance for Cal Poly vs Portland State, 10/20/2012. Shout out to Ian Billings for the photo!"
     },
     "oxnard" : {
       "buttons" : [ {
@@ -111,7 +172,7 @@
         "link" : "https://en.wikipedia.org/wiki/Oxnard_Plain",
         "text" : "PLAIN"
       } ],
-      "content" : "I grew up in Oxnard, located about an hour west of Los Angeles and an hour southeast of Santa Barbara. Oxnard is known for being California's largest strawberry producer because of the Oxnard Plain.",
+      "content" : "I grew up in Oxnard, located approximately 60 miles northwest of downtown Los Angeles and 35 miles southeast of Santa Barbara. Oxnard is known for being California's largest strawberry producer because of the Oxnard Plain.",
       "imgAlt" : "Oxnard Plain",
       "imgSrc" : "http://www.soarvc.org/wp-content/uploads/2014/09/Oxnard-image.jpg",
       "order" : 8,
@@ -163,6 +224,28 @@
     }
   },
   "projects" : {
+    "ARound" : {
+      "buttons" : [ {
+        "color" : "#9C27B0",
+        "link" : "https://github.com/GigaMatt/ARound-ARKit-Project",
+        "text" : "SOURCE"
+      }, {
+        "color" : "#FCD20B",
+        "link" : "https://www.sbhacks.com/",
+        "text" : "SB HACKS"
+      }, {
+        "color" : "#FFFFFF",
+        "link" : "https://developer.apple.com/arkit/",
+        "text" : "ARKIT"
+      } ],
+      "content" : "<p>Find your destination in the real world with the use of ARound, an iOS application that takes advantage of Apple's ARKit. ARound takes your location and the location of significant areas around you, generates a marker in front of the location for navigation, and provide the name and some information about the place of interest.</p> <p>ARound was developed at the SBHacks IV Hackathon by Duc Dao, Matthew Montoya, and Daniel Villa.</p>",
+      "imgAlt" : "ARound banner",
+      "imgSrc" : "https://firebasestorage.googleapis.com/v0/b/ducdaoio-cb867.appspot.com/o/ARound.jpg?alt=media&token=2a64ffad-974d-4e15-831f-01335fa6b107",
+      "order" : 7,
+      "subtitle" : "iOS AR Map Marker",
+      "title" : "ARound",
+      "tooltip" : "Thank you Alex, for letting us stay at your place!"
+    },
     "BPMDetector" : {
       "buttons" : [ {
         "color" : "#9C27B0",
@@ -180,7 +263,7 @@
       "content" : "<p>The BPM Detector is an Android application that detects the tempo or beats-per-minute (BPM) for a band conductor's conducting. Generally, the conductor moves their arms in a predictable pattern in order to maintain the band's synchronization, acting similarly to a metronome. The purpose of this application is to provide a tool for concert and marching band conductors to detect their precise tempo while conducting. This will help them determine how well they are coordinating the band and whether they need to adjust their tempo.<p> <p>BPM Detector was originally created for Duc Dao's senior project at Cal Poly.</p>",
       "imgAlt" : "BPM Detector image",
       "imgSrc" : "https://firebasestorage.googleapis.com/v0/b/ducdaoio-cb867.appspot.com/o/BPMDetectorBanner.jpg?alt=media&token=0eba1bc6-15a2-4b3e-9d11-af5cd59b0b55",
-      "order" : 7,
+      "order" : 6,
       "subtitle" : "Android Wear Beats-Per-Minute Detection",
       "title" : "BPM Detector",
       "tooltip" : "My first Android application!"
@@ -199,10 +282,10 @@
         "link" : "http://catalog.calpoly.edu/search/?P=CSC%20371",
         "text" : "CSC 371"
       } ],
-      "content" : "<p>Created by Alex Bartlett, Duc Dao, Thomas Franklin, and Khammadao Lee.</p> <p>Dino is a top down shooter made in Unreal Engine 4 for Cal Poly's Game Design class, CSC 371. You play as Laser Raptor, one of the few dinosaurs who have survived a meteor strike, granting you the ability to shoot laser beams through your eyes. The goal of the game is to survive as long as possible.</p> <p>Dino was inspired by Kung Fury.</p>",
+      "content" : "<p>Dino is a top down shooter made in Unreal Engine 4 for Cal Poly's Game Design class, CSC 371. You play as Laser Raptor, one of the few dinosaurs who have survived a meteor strike, granting you the ability to shoot laser beams through your eyes. The goal of the game is to survive as long as possible.</p> <p>Dino was inspired by Kung Fury and created by Alex Bartlett, Duc Dao, Thomas Franklin, and Khammadao Lee.</p>",
       "imgAlt" : "Dino",
       "imgSrc" : "https://firebasestorage.googleapis.com/v0/b/ducdaoio-cb867.appspot.com/o/dino.jpg?alt=media&token=09a73f41-7bfa-4a8a-af0d-527f7e6d30d7",
-      "order" : 2,
+      "order" : 1,
       "subtitle" : "Top-Down Shooter",
       "title" : "Dino",
       "tooltip" : "Shoutout to Thomas for being a team player!"
@@ -221,13 +304,13 @@
         "link" : "http://catalog.calpoly.edu/search/?P=CSC%20436",
         "text" : "CSC 436"
       } ],
-      "content" : "ELI5-- is an iOS application that parses threads from the explainlikeimfive subreddit, simplifies the top explanation, and provides images to supplement it. ELI5-- is my final project for Cal Poly's Mobile Application Development, CSC 436.",
+      "content" : "<p>ELI5-- is an iOS application that parses threads from the explainlikeimfive subreddit, simplifies the top explanation, and provides images to supplement it.</p> <p>ELI5-- is my final project for Cal Poly's Mobile Application Development, CSC 436.</p>",
       "imgAlt" : "ELI5--",
-      "imgSrc" : "https://firebasestorage.googleapis.com/v0/b/ducdaoio-cb867.appspot.com/o/reddit.jpg?alt=media&token=5e0107cc-eb39-4230-b07c-796952f78432",
-      "order" : 3,
-      "subtitle" : "Subreddit Visualizer",
+      "imgSrc" : "https://firebasestorage.googleapis.com/v0/b/ducdaoio-cb867.appspot.com/o/ELI5--.jpg?alt=media&token=11c71b06-d2c4-425f-be19-20252a6a6948",
+      "order" : 2,
+      "subtitle" : "iOS Subreddit Visualizer",
       "title" : "ELI5--",
-      "tooltip" : "Image Source: http://az616578.vo.msecnd.net/files/2016/07/01/636029417935340699-58088307_reddit.jpg"
+      "tooltip" : "My first iOS application! Many thanks to Randy for being a wonderful iOS professor!"
     },
     "Firefly" : {
       "buttons" : [ {
@@ -239,11 +322,11 @@
         "link" : "https://startupweekend.org/",
         "text" : "STARTUP WEEKEND"
       } ],
-      "content" : "<p>Firefly is a crowd supplied light control system to increase audience engagement. Firefly was created by Duc Dao, Shannon Durbin, Adam Gockel, Matt Hanna, and Christian Johansen at Startup Weekend San Luis Obispo 2017. Out of 14 teams, Firefly ended up getting 3rd place in the competition!</p>",
+      "content" : "<p>Firefly is an iOS application that synchronizes phones' flashlights in order to create light patterns meant to increase audience engagement. Out of 14 teams, Firefly received 3rd place at Startup Weekend San Luis Obispo 2017!</p> <p> Firefly was created by Duc Dao, Shannon Durbin, Adam Gockel, Matt Hanna, and Christian Johansen at Startup Weekend San Luis Obispo 2017.</p>",
       "imgAlt" : "Firefly logo",
       "imgSrc" : "https://firebasestorage.googleapis.com/v0/b/ducdaoio-cb867.appspot.com/o/firefly(700x400).png?alt=media&token=22f841ae-5c5a-4ef7-a2ca-ccd5b1ea8969",
-      "order" : 5,
-      "subtitle" : "Crowd Supplied Lighting System",
+      "order" : 4,
+      "subtitle" : "iOS Crowd Supplied Lighting System",
       "title" : "Firefly",
       "tooltip" : "Shout out to Adam, Matt, and Shannon for the business development, Taylor for developing the design, and Christian for providing the back end for the app!"
     },
@@ -260,7 +343,7 @@
       "content" : "<p>Helping Hand is a platform built to connect two types of users: organizations providing volunteering opportunities and users looking for volunteering opportunities.</p> <p>Once a volunteering opportunity is complete, the organization will verify the completion of the opportunity and it will be recorded for the user, contributing to their achievements. The website provides a feature for the user to generate useful documents such us Volunteer History and Volunteer Data that can serve as a professional reference.</p> <p>Helping Hand was built at LA Hacks 2017.</p>",
       "imgAlt" : "Helping Hand",
       "imgSrc" : "https://firebasestorage.googleapis.com/v0/b/ducdaoio-cb867.appspot.com/o/helpinghand.png?alt=media&token=63733801-bcc6-4c26-8c10-88248b45a967",
-      "order" : 1,
+      "order" : 0,
       "subtitle" : "Volunteer Platform",
       "title" : "Helping Hand",
       "tooltip" : "Image Source: http://s3.amazonaws.com/churchplantmedia-cms/currey_creek_church_boerne_tx/volunteer.png"
@@ -282,7 +365,7 @@
       "content" : "<p>Lexure is an application that transcripts audio recordings of lectures, produces a searchable text file, and topics covered to facilitate studying.</p> <p>Lexure is a project for Cal Poly's Artifical Intelligence class, CSC 480, by Dave Arndt, Duc Dao, Nicholas Ilog, Jin Young Jeong, and Tommy White.</p>",
       "imgAlt" : "Lexure image",
       "imgSrc" : "https://firebasestorage.googleapis.com/v0/b/ducdaoio-cb867.appspot.com/o/LexureBanner.jpg?alt=media&token=7690a790-b65e-4519-8bc7-0f6b3a31a4fc",
-      "order" : 6,
+      "order" : 5,
       "subtitle" : "Lecture Transcript and Topic Generation",
       "title" : "Lexure",
       "tooltip" : "Shoutout to Tommy for being the team's MVP!"
@@ -304,7 +387,7 @@
       "content" : "You're looking at it! ducdao.io is my personal website built with Angular and uses Angular Material to implement Google's Material Design language. Many thanks to my fellow California Cyber Training Complex 2017 interns for helping me learn Angular.",
       "imgAlt" : "ducdao.io",
       "imgSrc" : "https://firebasestorage.googleapis.com/v0/b/ducdaoio-cb867.appspot.com/o/ducdaoio.jpg?alt=media&token=1841c9ce-3346-4575-958a-a5d9b7aea1c1",
-      "order" : 4,
+      "order" : 3,
       "subtitle" : "Personal Website",
       "title" : "ducdao.io",
       "tooltip" : "I always wanted to use Material Design!"
