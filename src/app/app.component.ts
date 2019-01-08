@@ -8,10 +8,11 @@ import { Component } from '@angular/core';
 
 export class AppComponent {
   navLinks: any[] = [ 
-    {pageName: 'HOME',     link: '/'},
-    {pageName: 'CV' ,      link: '/cv'},
-    {pageName: 'PROJECTS', link: '/projects'},
-    {pageName: 'PERSONAL', link: '/personal'},
-    {pageName: 'FAQ',      link: '/faq'}
+    {pageName: 'HOME',              link: '/'},
+    {pageName: 'CV' ,               link: '/cv'},
+    {pageName: 'PROJECTS',          link: '/projects'},
+    {pageName: 'PERSONAL',          link: '/personal'},
+    {pageName: 'FAQ',               link: '/faq'},
+    {pageName: 'LOVESSARAHHOPKINS', link: '/lovesSarahHopkins'}
   ]; 
 }

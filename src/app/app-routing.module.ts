@@ -15,6 +15,7 @@ const appRoutes: Routes = [
   { path: 'projects', component: ProjectsComponent },
   { path: 'personal', component: PersonalComponent },
   { path: 'faq', component: FAQComponent },
+  { path: 'lovessarahhopkins', component: LovesSarahHopkinsComponent },
   { path: 'notFound', component: PageNotFoundComponent},
   { path: '**', redirectTo: '/notFound'}
 ];

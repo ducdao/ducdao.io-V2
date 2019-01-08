@@ -1,0 +1,72 @@
+<title>Duc Loves Sarah</title>
+
+<df tgbody *isDesktop>
+  <div class="column-left">
+    <p class="splash-text">Hello!</p>
+    <p class="splash-text-sub">The name's Duc.</p>
+  </div>
+
+  <!-- Introduction card -->
+  <div class="column-right">
+    <mat-card class="landing-card-desktop">
+      <mat-card-header>
+        <div mat-card-avatar class="avatar-image"></div>
+        <mat-card-title>{{ cards?.title }}</mat-card-title>
+        <mat-card-subtitle>{{ cards?.subtitle }}</mat-card-subtitle>
+      </mat-card-header>
+
+      <img mat-card-image 
+        [src]="cards?.imgSrc" 
+        [alt]="cards?.imgAlt"
+        [matTooltip]="cards?.tooltip" 
+        matTooltipPosition="left" 
+        matTooltipShowDelay="1000">
+
+      <mat-card-content>
+        <p [innerHTML]="cards?.content"></p> 
+      </mat-card-content>
+
+      <mat-card-actions>
+        <a mat-button 
+          *ngFor="let button of cards?.buttons" 
+          [href]="button?.link"
+          target="_blank" 
+          [style.color]="button?.color">
+          {{ button?.text }}
+        </a>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</body>
+
+<body *isMobile style="margin-bottom: 64px">
+  <!-- Introduction card -->
+    <mat-card class="landing-card-mobile">
+      <mat-card-header>
+        <div mat-card-avatar class="avatar-image"></div>
+        <mat-card-title>{{ cards?.title }}</mat-card-title>
+        <mat-card-subtitle>{{ cards?.subtitle }}</mat-card-subtitle>
+      </mat-card-header>
+
+      <img mat-card-image 
+        [src]="cards?.imgSrc" 
+        [alt]="cards?.imgAlt"
+        [matTooltip]="cards?.tooltip" 
+        matTooltipPosition="left" 
+        matTooltipShowDelay="1000">
+
+      <mat-card-content>
+        <p [innerHTML]="cards?.content"></p>
+      </mat-card-content>
+
+      <mat-card-actions>
+        <a mat-button
+          *ngFor="let button of cards?.buttons" 
+          [href]="button?.link"
+          target="_blank" 
+          [style.color]="button?.color">
+          {{ button?.text }}
+        </a>
+      </mat-card-actions>
+    </mat-card>
+</body>
