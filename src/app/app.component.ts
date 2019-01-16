@@ -12,7 +12,6 @@ export class AppComponent {
     {pageName: 'CV' ,               link: '/cv'},
     {pageName: 'PROJECTS',          link: '/projects'},
     {pageName: 'PERSONAL',          link: '/personal'},
-    {pageName: 'FAQ',               link: '/faq'},
-    {pageName: 'LOVESSARAHHOPKINS', link: '/lovesSarahHopkins'}
+    {pageName: 'FAQ',               link: '/faq'}
   ]; 
 }

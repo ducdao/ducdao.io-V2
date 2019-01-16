@@ -10,6 +10,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { FAQComponent } from './faq/faq.component';
+import { LovesSarahHopkinsComponent } from './lovessarahhopkins/lovessarahhopkins.component';
 import { PersonalComponent } from './personal/personal.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { CVComponent } from './cv/cv.component';
@@ -35,6 +36,7 @@ import { MatButtonModule,
   declarations: [
     AppComponent,
     PageNotFoundComponent,
+    LovesSarahHopkinsComponent,
     FAQComponent,
     ProjectsComponent,
     PersonalComponent,

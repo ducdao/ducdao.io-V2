@@ -1,4 +1,3 @@
-import { Cards } from './../cards';
 import { CardsService } from './../cards.service';
 import { Component, OnInit } from '@angular/core';
 

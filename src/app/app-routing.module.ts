@@ -3,8 +3,8 @@ import { CVComponent } from './cv/cv.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { PersonalComponent } from './personal/personal.component';
 import { FAQComponent } from './faq/faq.component';
+import { LovesSarahHopkinsComponent } from './lovessarahhopkins/lovessarahhopkins.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { AppComponent } from './app.component';
 
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
