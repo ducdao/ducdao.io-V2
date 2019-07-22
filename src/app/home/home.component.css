@@ -37,20 +37,18 @@ body {
 
 /* Right side of home page */
 .landing-card-desktop {
-  width: 26vw;
-  margin: 0;
+  width: 25vw;
   position: relative;
-  top: 47%;
-  left: 50%;
-  margin-right: -50%;
+  top: 47.5%;
+  left: 45%;
   transform: translate(-50%, -50%);
 }
 
 .landing-card-mobile {
   margin-top: 5%;
-  margin-bottom: 7%;
-  margin-left: 16px;
-  margin-right: 16px;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
   width: stretch;
 }
 

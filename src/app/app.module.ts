@@ -19,18 +19,18 @@ import { HomeComponent } from './home/home.component';
 import { CardsService } from './cards.service';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatButtonModule,
-         MatCardModule, 
-         MatMenuModule, 
-         MatToolbarModule, 
-         MatIconModule, 
-         MatSidenavModule, 
-         MatProgressSpinnerModule,
-         MatProgressBarModule, 
-         MatTabsModule,
-         MatGridListModule,
-         MatTooltipModule,
-         MatListModule } from '@angular/material';
+import { MatButtonModule } from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatIconModule } from '@angular/material/icon';
+import { MatListModule } from '@angular/material/list';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatTabsModule } from '@angular/material/tabs';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatTooltipModule } from '@angular/material/tooltip';
 
 @NgModule({
   declarations: [
